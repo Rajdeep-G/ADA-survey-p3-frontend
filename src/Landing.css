@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:          #EEF2F8;
+  --card:        #FFFFFF;
+  --navy:        #162040;
+  --text:        #1E2B45;
+  --muted:       #6B7A99;
+  --accent:      #2F6DE1;
+  --accent-bg:   #EBF1FC;
+  --border:      #D8E0EF;
+  --radius:      14px;
+}
+
+.l-root {
+  min-height: 100vh;
+  background: var(--bg);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 24px 16px 72px;
+  font-family: 'Inter', sans-serif;
+  color: var(--text);
+  line-height: 1.7;
+}
+
+/* ── Card ───────────────────────────────────────────── */
+.l-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow:
+    0 2px 6px rgba(22,32,64,.06),
+    0 10px 36px rgba(22,32,64,.08);
+  max-width: 90%;
+  width: 100%;
+  padding: 36px 36px 24px;
+}
+
+/* ── Badge ──────────────────────────────────────────── */
+.l-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--accent-bg);
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  padding: 5px 13px 5px 10px;
+  border-radius: 100px;
+  margin-bottom: 22px;
+}
+.l-badge::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+
+/* ── Header ─────────────────────────────────────────── */
+.l-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--navy);
+  margin-bottom: 2px;
+}
+.l-salutation {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--muted);
+  margin-bottom: 18px;
+  margin-top: 12px;
+}
+
+/* ── Sections ───────────────────────────────────────── */
+.l-section {
+  margin-bottom: 8px;
+}
+.l-eyebrow {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: .13em;
+  /* text-transform: uppercase; */
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+.l-section p,
+.l-section a {
+  font-size: 16px
+}
+.l-section a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.l-section a:hover {
+  text-decoration: underline;
+}
+
+/* ── Callout (signature element) ────────────────────── */
+.l-callout {
+  border-left: 3px solid var(--accent);
+  background: var(--accent-bg);
+  border-radius: 0 8px 8px 0;
+  padding: 16px 20px;
+  margin: 28px 0;
+}
+.l-callout .l-eyebrow {
+  margin-bottom: 8px;
+}
+.l-callout p {
+  font-size: .9rem;
+  color: var(--navy);
+  line-height: 1.68;
+}
+
+/* ── Contact ────────────────────────────────────────── */
+.l-contact {
+  font-size: .9rem;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.l-contact strong {
+  color: var(--navy);
+}
+
+/* ── Divider ─────────────────────────────────────────── */
+.l-divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 32px 0 28px;
+}
+
+/* ── Form ───────────────────────────────────────────── */
+.l-form-label {
+  display: block;
+  font-size: .9rem;
+  font-weight: 500;
+  color: var(--navy);
+  margin-bottom: 14px;
+}
+.l-form-row {
+  display: flex;
+  gap: 10px;
+}
+.l-input {
+  flex: 1;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  padding: 11px 14px;
+  font-size: .93rem;
+  font-family: 'Inter', sans-serif;
+  color: var(--text);
+  outline: none;
+  transition: border-color .15s;
+  background: #fff;
+}
+.l-input::placeholder {
+  color: var(--muted);
+}
+.l-input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(47,109,225,.12);
+}
+.l-input:disabled {
+  background: #f5f7fb;
+  cursor: not-allowed;
+}
+.l-btn {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 11px 22px;
+  font-size: .93rem;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background .15s, opacity .15s;
+}
+.l-btn:hover:not(:disabled) {
+  background: #1f55c0;
+}
+.l-btn:disabled {
+  opacity: .6;
+  cursor: not-allowed;
+}
+.l-hint {
+  margin-top: 10px;
+  font-size: .8rem;
+  color: var(--muted);
+}
+
+/* ── Responsive ─────────────────────────────────────── */
+@media (max-width: 560px) {
+  .l-card {
+    padding: 30px 22px 36px;
+  }
+  .l-title {
+    font-size: 1.65rem;
+  }
+  .l-form-row {
+    flex-direction: column;
+  }
+  .l-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
