@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { Model } from "survey-core";
 import { Survey } from "survey-react-ui";
+import "./SurveyPage.css";
 import "survey-core/survey-core.min.css";
 import { submitSurvey, saveProgress, verifyCode, checkUidExists } from "./Api";
 
@@ -108,15 +109,15 @@ export default function SurveyPage() {
       if (btn) btn.onclick = () => sender.nextPage();
 
       // Make A2_Q8 description a clickable link
-      if (options.question?.name === "A2_Q8") {
-        const desc = el.querySelector(".sd-question__description");
-        if (desc) {
-          desc.innerHTML =
-            'To know more about what you can do with "My Activity", you may check: ' +
-            "<a href='https://support.google.com/accounts/answer/7028918' target='_blank'>" +
-            "support.google.com/accounts/answer/7028918</a>";
-        }
-      }
+      // if (options.question?.name === "A2_Q8") {
+      //   const desc = el.querySelector(".sd-question__description");
+      //   if (desc) {
+      //     desc.innerHTML =
+      //       'To know more about what you can do with "My Activity", you may check: ' +
+      //       "<a href='https://support.google.com/accounts/answer/7028918' target='_blank'>" +
+      //       "support.google.com/accounts/answer/7028918</a>";
+      //   }
+      // }
 
       // ── ADA code input (A7_Q3): force uppercase as user types ────────────────
       m.onAfterRenderQuestion.add((sender, options) => {
@@ -238,8 +239,10 @@ export default function SurveyPage() {
   if (!model) return null;
 
   return (
-    <div className="container">
-      <div className="card">
+    <div className="container survey-container">
+    <div className="card survey-card">
+    {/* <div className="container">
+      <div className="card"> */}
         <h2>Study on Understanding User Perceptions of Data Dashboard</h2>
         <Survey model={model} />
       </div>

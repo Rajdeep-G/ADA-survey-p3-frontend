@@ -1,135 +1,57 @@
 {
-  "title": "User Study Survey",
+  
   "showProgressBar": "bottom",
   "firstPageIsStarted": false,
   "pageNextText": "Next subsection",
   "completeText": "Submit",
   "showQuestionNumbers": "off",
+  "widthMode": "responsive",
   "pages": [
-    {
+        {
       "name": "A1",
       "title": "Google Account and Service Usage",
       "elements": [
         {
           "type": "html",
           "name": "A1_T1",
-          "html": "<p>In the following section, we will ask you some general questions related to your usage of Google services, your knowledge of Google Account features, and your current Google Account usage habits.\n<br><br>A “primary Google Account” refers to the Google (Gmail) account you use most frequently for your day-to-day online activities (such as email, Google Search, YouTube, Maps, Drive, or logging into apps/websites).</p>"
-        },
-        {
-          "type": "radiogroup",
-          "name": "A1_Q1",
-          "title": "How long have you been using your primary Google Account (on your laptop or Android smartphone)?",
-          "isRequired": true,
-          "colCount": 4,
-          "choices": [
-            "Around a few weeks",
-            "Around a few months",
-            "Around a year",
-            "Around 2 years",
-            "Around 3 years",
-            "More than 3 years"
-          ]
+          "html": "<p>In this section, we'd like to understand which Google services you use and how you typically access your Google Account across different devices. There are no right or wrong answers — we're simply interested in your everyday habits.</p>"
         }
       ]
     },
     {
       "name": "A2",
-      "title": "Background Knowledge of Google “My Activity”",
+      "title": "Background Knowledge of Google My Activity Dashboard",
       "elements": [
         {
           "type": "html",
           "name": "A2_intro_MyActivity",
           "html": "<p>In the following section, we will ask you some general questions to learn more about your knowledge of the Google “My Activity” dashboard in general and your usage of this feature in particular.</p><p>The Google “My Activity” dashboard is a service provided by Google that allows users to view, manage, and delete the activity data collected from their use of various Google services (such as Search, YouTube, Maps, Chrome, and more). “My Activity” organizes your past activity in a timeline and gives you control over what data is stored in your Google Account.</p><ul> <li>You can access the Google “My Activity” dashboard by visiting <a href='https://myactivity.google.com/' target='_blank'>https://myactivity.google.com/</a> while signed into your Google Account.</li> <li>You can also find it by going to your Google Account → Data & Privacy → History settings → My Activity.</li><li>“My Activity” allows you to view activity by date, Google product, and category. You can also delete specific items, delete activity in bulk, or turn on auto-delete for future activity.</li></ul>You can learn more about the Google “My Activity” dashboard from the official help page: <a href='https://support.google.com/accounts/answer/7028918' target='_blank'>Click here</a>"
-        },
-        {
-          "type": "radiogroup",
-          "name": "A2_Q1",
-          "title": "Which of the following best describes your level of familiarity with the Google “My Activity” dashboard?",
-          "isRequired": true,
-          "choices": [
-            "I have never heard of/noticed the Google “My Activity” dashboard before",
-            "I know somewhat about it but have never used it before",
-            "I know somewhat about it and have used it before",
-            "I know a lot about it but have never used it before",
-            "I know a lot about it and have used it before",
-            "I prefer not to answer"
-          ],
-          "hasOther": true,
-          "colCount": 3,
-          "otherText": "Other (please specify)"
         }
+        
       ]
     },
     {
       "name": "A3",
-      "title": "Usage of Google “My Activity” and Google services",
+      "title": "Opinions about Activity Collection and Personalization",
       "elements": [
         {
           "type": "html",
           "name": "A3_T1",
-          "html": "<p>In the following section, we will ask you some general questions to learn more about your usage of the Google “My Activity” dashboard, as well as how you interact with Google services that contribute to your stored activity. We will also ask a few questions regarding your cross-device Google usage patterns.</p><p>A Google activity log refers to the information collected by Google based on your interactions with its products and services. This may include your searches, websites visited, apps used, videos watched, voice and audio interactions, location history, and other related activities. These activity logs are stored in your Google “My Activity” dashboard and may differ across devices and products. (See the figure below)</p><div style='text-align:center; margin:16px 0;'><img src='/p1.png' style='max-width:80%; border-radius:10px;' /><div style='font-size:13px; color:#555; margin-top:6px;'>Figure: Example representation of Google activity logs</div></div><p><b>Below is some brief information to help you understand where activity logs come from and how they are stored:</b></p><ul><li>Google stores activity when you use services such as Search, YouTube, Maps, Chrome, and others while signed into your Google Account.</li><li>Activity may also be stored from multiple devices simultaneously if the same Google Account is signed in.</li><li>You can view, delete, or manage these activities by visiting <a href='https://myactivity.google.com' target='_blank'>https://myactivity.google.com</a>.</li><li>Activity logs may include timestamps, device details, product information, and, in some cases, content associated with your activity.</li></ul>"
-        },
-        {
-          "type": "radiogroup",
-          "name": "A3_Q1",
-          "title": "Approximately how long ago did you create the primary Google Account that you currently use most often?",
-          "isRequired": true,
-          "choices": [
-            "Around a few weeks",
-            "Around a few months",
-            "Around a year",
-            "Around 2 years",
-            "Around 3 years",
-            "More than 3 years"
-          ],
-          "colCount": 3
+          "html": "<p>During the rest of this survey, we use the term “activity data” to refer to the records a company (e.g., Google) keeps of what you searched for, watched, visited, or did while using its services.</p>"
         }
+        
       ]
     },
     {
       "name": "A4",
-      "title": "Questions after exploring Google Activity Dashboard",
+      "title": "Knowledge Certainty and Facts",
       "elements": [
-        {
-          "type": "html",
-          "name": "A4_T1",
-          "html": "<p>In the following section, we will ask you a few questions to learn more about your awareness and experience after exploring the Google “My Activity” dashboard.</p>"
-        },
-        {
-          "type": "radiogroup",
-          "name": "A4_Q1",
-          "title": "Before this study, did you know that you can view and manage the activity data collected by Google (via its various services) through the Google “My Activity” dashboard?",
-          "isRequired": true,
-          "colCount": 4,
-          "choices": [
-            "Yes",
-            "No",
-            "Maybe"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "A5",
-      "title": "Thoughts About Data Storage",
-      "elements": [
-        {
-          "type": "html",
-          "name": "A5_T1",
-          "html": "<p>In the following section, we will ask you some general questions to learn more about your knowledge of how Google collects and stores your activity data across its services.</p>"
-        },
-        {
-          "type": "html",
-          "name": "A5_T2",
-          "visibleIf": "{A3_Q14} = 'No' or {A3_Q14} = 'I am not sure'",
-          "html": "<p><b>Information:</b> At this stage of the study, we would like to inform you that by default, when you are signed into your Google Account, Google collects a variety of activity data across its products and services (such as Google Search, YouTube, Maps, and Chrome) in order to improve and personalize its services.</p>"
-        },
         {
           "type": "checkbox",
-          "name": "A5_Q1",
-          "title": "What pieces of data do you think Google collects when you use its services while signed into your Google Account? (Select all that apply)",
+          "name": "A4_Q1",
+          "title": "What pieces of activity data do you think Google collects when you use your Google Account on multiple devices? (Select all that apply)",
           "isRequired": true,
-          "colCount": 4,
+          "colCount": 3,
           "choices": [
             "Search queries typed or spoken",
             "Websites visited in Chrome",
@@ -140,124 +62,14 @@
             "Device used (e.g., phone, laptop, tablet)",
             "App activity and usage details",
             "Interactions with ads (e.g., ads viewed or clicked)",
-            "Data shared with third-party apps using Google login",
-            "I don’t think Google collects data across services"
+            "Data shared with third-party apps using Google login"
           ],
           "hasOther": true,
-          "otherText": "Other (please specify)"
+          "otherText": "Other (please specify)",
+          "showNoneItem": true,
+          "noneText": "I don’t think Google collects data across services"
         }
-      ]
-    },
-    {
-      "name": "A6",
-      "title": "General Privacy Perception Related Questions",
-      "elements": [
-        {
-          "type": "html",
-          "name": "A6_T1",
-          "html": "<p>In the following section, we will ask you some general questions to learn more about your perceptions regarding the collection, storage, and use of personal data by online service providers and technology companies.</p><p>On a scale of 1 to 5, with 1 being strongly disagree and 5 being strongly agree, express your level of agreement for each of the statements given below.</p><p><i>(1 = Strongly disagree, 5 = Strongly agree)</i></p>"
-        },
-        {
-          "type": "radiogroup",
-          "name": "A6_Q2_ACK8",
-          "title": "Select the wrong answer on purpose: What colour is the sky on a clear sunny day?",
-          "isRequired": true,
-          "colCount": 4,
-          "choices": [
-            "Green",
-            "Purple",
-            "Pink",
-            "Yellow"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "A7",
-      "title": "Installing ADA",
-      "elements": [
-        {
-          "type": "html",
-          "name": "A7_T1",
-          "html": "<p>In this part, you will be asked to install a browser extension that we designed for the research called <b>ADA (Adaptive Data DAshboard)</b>. Follow the instructions given below.</p><p><b>Note:</b> You will <u>NOT</u> be required to share your Google activity data with us at any stage of the study. Specifically, we <b>DO NOT COLLECT</b> information such as your name, address, emails, email address, date of birth, phone number, images, videos, contacts, location data, ZIP/postcode, links to social media accounts or posts. Our study involves interacting with a browser extension that runs entirely on your device and processes your data locally without sending any information outside your browser.</p><p>We will only keep logs of your interaction activity while using the extension, and this does <b>not</b> include any raw data or personal information.</p><p><b>Please follow the steps below to install and set up the ADA browser extension:</b></p><ul><li>Open Google Chrome on your desktop/laptop.</li><li>Log into your Google Account (the one you used in Part 1).</li><li>Visit the extension installation link below:<i> [Extension Link — update as needed]</i></li><li>Click <b>“Add to Chrome” → “Add Extension”.</b></li><li>Once installed, pin the extension to your browser toolbar.</li><li>Open a new tab and visit: <a href='https://myactivity.google.com/' target='_blank'>https://myactivity.google.com/</a></li></ul>"
-        },
-        {
-          "type": "radiogroup",
-          "name": "A7_Q1",
-          "title": "Were you able to successfully install and open the ADA extension?",
-          "isRequired": true,
-          "colCount": 4,
-          "choices": [
-            "Yes",
-            "No",
-            "Faced some difficulty"
-          ]
-        },
-        {
-          "type": "comment",
-          "name": "A7_Q2",
-          "title": "If you faced some difficulty, please briefly (1–3 sentences) explain the issue:",
-          "visibleIf": "{A7_Q1} = 'Faced some difficulty'",
-          "isRequired": false,
-          "rows": 2
-        },
-        {
-          "type": "html",
-          "name": "A7_T2",
-          "html": "<p>Now that you have successfully installed the <b>ADA (Adaptive Data Dashboard)</b> extension, we request you to take a few minutes to explore it. The purpose is simply to help you get familiar with how ADA works. ADA processes your Google Activity data <b>locally on your device</b>, ensuring full privacy while helping you better understand your digital footprint.</p><p><b>As you explore ADA, you may want to try the following:</b></p><ul><li>Open the ADA extension from the Chrome toolbar to view your recent activity entries.</li><li>Wait for the activity to load — ADA scans and organizes your entries directly from the Google “My Activity” page.</li><li>Notice the sensitivity scores displayed next to each activity (higher scores indicate potentially more personal or sensitive data).</li><li>Try at least one feature such as filtering, sorting, viewing details, or navigating through activity items.</li></ul><p>Once you feel familiar with the interface, press the button inside the ADA dashboard that generates a unique <b>6-digit code</b>. </p><div style='text-align:center; margin:16px 0;'><img src='/p2.png' style='max-width:100%; border-radius:4px;' /></div><p>Copy and paste that code below. After submitting the code, you will continue to the First-Use Experience section.</p>"
-        },
-        {
-          "type": "text",
-          "name": "A7_Q3",
-          "title": "Please enter the 6-digit code generated by the ADA dashboard:",
-          "isRequired": true,
-          "inputType": "text",
-          "placeholder": "Enter 6-digit code",
-          "validators": [
-            {
-              "type": "regex",
-              "regex": "^[A-Z0-9]{6}$",
-              "text": "Please enter exactly 6 digits."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "A8",
-      "title": "First-Use Experience Survey",
-      "elements": [
-        {
-          "type": "html",
-          "name": "A8_T1",
-          "html": "<p>Thank you for trying ADA for the first time. Before you continue to use it over the coming days, we’d love to understand how your initial experience felt. Your responses will help us improve ADA so that it feels even more helpful, intuitive, and comfortable for users like you.</p>"
-        },
-        {
-          "type": "comment",
-          "name": "A8_Q1",
-          "title": "How would you describe your immediate reaction to ADA? (Explain in 1-3 sentences)",
-          "isRequired": true,
-          "maxLength": 600
-        }
-      ]
-    },
-    {
-      "name": "A9",
-      "title": "Demographics",
-      "elements": [
-        {
-          "type": "radiogroup",
-          "name": "A9_Q1",
-          "title": "With what gender do you identify?",
-          "isRequired": true,
-          "colCount": 4,
-          "choices": [
-            "Female",
-            "Male",
-            "Non-binary",
-            "Prefer not to answer"
-          ]
-        }
+        
       ]
     }
   ]
