@@ -119,9 +119,9 @@ export default function SurveyPage() {
       //   }
       // }
 
-      // ── ADA code input (A7_Q3): force uppercase as user types ────────────────
+      // ── ADA code input (A6_Q3): force uppercase as user types ────────────────
       m.onAfterRenderQuestion.add((sender, options) => {
-        if (options.question?.name !== "A7_Q3") return;
+        if (options.question?.name !== "A6_Q3") return;
         const input = options?.htmlElement?.querySelector("input");
         if (!input) return;
         input.addEventListener("input", () => {
@@ -132,14 +132,14 @@ export default function SurveyPage() {
       // ── Verify code against server when leaving the page (on Next click) ─────
       m.onServerValidateQuestions.add(async (sender, options) => {
         const onCodePage = sender.currentPage?.questions?.some(
-          (q) => q.name === "A7_Q3",
+          (q) => q.name === "A6_Q3",
         );
         if (!onCodePage) {
           options.complete();
           return;
         }
 
-        const code = (options.data.A7_Q3 || "").trim().toUpperCase();
+        const code = (options.data.A6_Q3 || "").trim().toUpperCase();
 
         if (!/^[A-Z0-9]{6}$/.test(code)) {
           options.complete();
@@ -147,7 +147,7 @@ export default function SurveyPage() {
         }
 
         // Clear stale errors from previous attempts
-        sender.getQuestionByName("A7_Q3")?.clearErrors();
+        sender.getQuestionByName("A6_Q3")?.clearErrors();
 
         let errorMsg = null;
         try {
@@ -166,7 +166,7 @@ export default function SurveyPage() {
 
         // Single point of display — set only if there's an error
         if (errorMsg) {
-          options.errors["A7_Q3"] = errorMsg;
+          options.errors["A6_Q3"] = errorMsg;
         }
 
         options.complete();

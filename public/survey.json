@@ -75,531 +75,60 @@
         {
           "type": "html",
           "name": "A5_T1",
-          "html": "<p>In the following section, we will ask you some questions to learn more about your usage of the Google “My Activity” dashboard, as well as how you interact with Google services that contribute to your stored activity. We will also ask a few questions regarding your cross-device Google usage.</p><p>A Google activity log refers to the information collected by Google based on your interactions with its products and services. This may include your searches, websites visited, apps used, videos watched, voice and audio interactions, location history, and other related activities. Activity logs may include timestamps, device details, product information, and, in some cases, content associated with your activity (e.g., what you searched for or watched). These activity logs are stored in your Google “My Activity” dashboard and may differ across devices and products. (See the figure below)</p><div style='text-align:center; margin:16px 0;'><img src='/p1.png' style='max-width:80%; border-radius:10px;' /><div style='font-size:13px; color:#555; margin-top:6px;'>Figure: Example representation of Google activity logs</div></div><p><b>Below is some brief information to help you understand where activity logs come from and how they are stored:</b></p><ul><li>Google stores activity when you use services such as Search, YouTube, Maps, Chrome, and others while signed into your Google Account.</li><li>Activity may also be stored from multiple devices simultaneously if the same Google Account is signed in.</li><li>You can view, delete, or manage these activities by visiting <a href='https://myactivity.google.com' target='_blank'>https://myactivity.google.com</a>.</li>"
-        },
-        {
-          "type": "html",
-          "name": "A5_T2",
-          "html": "<p>Before continuing, please complete a few quick tasks on your Google “My Activity” dashboard (<a href='https://myactivity.google.com' target='_blank' rel='noopener noreferrer'>https://myactivity.google.com</a>) to help you recall what’s stored in your account.</p><ol><li><strong>Visit your dashboard</strong> — scroll through your recent activity.</li><li><strong>Filter by category</strong> — use “Filter by date &amp; product” to check at least 3 different Google products.</li><li><strong>Filter by time</strong> — view activity for Today, Yesterday, and Last 30 days.</li></ol>"
-        },
-        {
-          "type": "checkbox",
-          "name": "A5_Q1",
-          "title": "Have you done the above tasks?",
-          "isRequired": true,
-          "requiredErrorText": "Please complete the tasks above on your Google “My Activity” dashboard, then tick the box to continue.",
-          "choices": [
-            "Yes, I have completed the tasks above."
-          ]
-        },
-        {
-          "type": "matrix",
-          "name": "A5_Q2",
-          "title": "How comfortable would you feel if Google stored activity logs (e.g., search/query text, visited links, timestamps) from each of the scenarios listed below?",
-          "isRequired": true,
-          "isAllRowRequired": true,
-          "rowTitleWidth": "40%",
-          "alternateRows": true,
-          "verticalAlign": "middle",
-          "columns": [
-            {
-              "value": "very_comfortable",
-              "text": "Very comfortable"
-            },
-            {
-              "value": "slightly_comfortable",
-              "text": "Slightly comfortable"
-            },
-            {
-              "value": "neutral",
-              "text": "Neither comfortable nor uncomfortable"
-            },
-            {
-              "value": "slightly_uncomfortable",
-              "text": "Slightly uncomfortable"
-            },
-            {
-              "value": "very_uncomfortable",
-              "text": "Very uncomfortable"
-            }
-          ],
-          "rows": [
-            {
-              "value": "casual",
-              "text": "When you searched or browsed casually for non-important topics"
-            },
-            {
-              "value": "sensitive",
-              "text": "When you searched for personal or sensitive information (e.g., health, finances)"
-            },
-            {
-              "value": "embarrassing",
-              "text": "When you viewed content that may be personally embarrassing or private"
-            },
-            {
-              "value": "someone_nearby",
-              "text": "When you used Google services while someone else was present nearby"
-            },
-            {
-              "value": "other_person_device",
-              "text": "When another person used a device where you were logged into your Google Account"
-            },
-            {
-              "value": "shared_public_spaces",
-              "text": "When you used Google services in shared or public spaces"
-            },
-            {
-              "value": "shared_public_device",
-              "text": "When activity was logged on a public or shared device (e.g., library, office, school computer)"
-            },
-            {
-              "value": "accidental",
-              "text": "When activity was logged accidentally or unintentionally (e.g., mistyped queries, accidental taps)"
-            }
-          ]
-        },
-        {
-          "type": "radiogroup",
-          "name": "A5_Q3",
-          "title": "Do you think that your Google activity logs could possibly contain any sensitive or personal information?",
-          "isRequired": true,
-          "colCount": 3,
-          "choices": [
-            "Yes",
-            "No",
-            "I am not sure"
-          ]
-        },
-        {
-          "type": "comment",
-          "name": "A5_Q4",
-          "title": "Can you please briefly (1–3 sentences) explain your answer choice for the previous question?",
-          "isRequired": false,
-          "maxLength": 600
-        },
-        {
-          "type": "radiogroup",
-          "name": "AC_4",
-          "title": "If all Android users use Google Play Store, and Sam uses Google Play Store, what can you conclude?",
-          "isRequired": true,
-          "colCount": 2,
-          "choices": [
-            "Sam is definitely an Android user",
-            "Sam is definitely not an Android user",
-            "Sam may or may not be an Android user",
-            "I am not sure"
-          ]
-        },
-        {
-          "type": "matrix",
-          "name": "A5_Q5",
-          "title": "How comfortable would you feel if Google stored the detailed content of your activity (e.g., exact search queries, viewed links, watched videos) from each of the above scenarios?",
-          "isRequired": true,
-          "isAllRowRequired": true,
-          "rowTitleWidth": "40%",
-          "alternateRows": true,
-          "verticalAlign": "middle",
-          "columns": [
-            {
-              "value": "very_comfortable",
-              "text": "Very comfortable"
-            },
-            {
-              "value": "slightly_comfortable",
-              "text": "Slightly comfortable"
-            },
-            {
-              "value": "neutral",
-              "text": "Neither comfortable nor uncomfortable"
-            },
-            {
-              "value": "slightly_uncomfortable",
-              "text": "Slightly uncomfortable"
-            },
-            {
-              "value": "very_uncomfortable",
-              "text": "Very uncomfortable"
-            }
-          ],
-          "rows": [
-            {
-              "value": "casual",
-              "text": "Casual or non-personal browsing/search activity"
-            },
-            {
-              "value": "sensitive",
-              "text": "Searches or activity related to personal or sensitive topics (e.g., health, finances, relationships)"
-            },
-            {
-              "value": "embarrassing",
-              "text": "Activity related to content that could be embarrassing or private"
-            },
-            {
-              "value": "someone_nearby",
-              "text": "Activity performed while someone else was present nearby"
-            },
-            {
-              "value": "other_person_device",
-              "text": "Activity performed by another person using a device where you were logged into your Google Account"
-            },
-            {
-              "value": "background_talking",
-              "text": "Activity performed in environments with other people talking in the background"
-            },
-            {
-              "value": "shared_public_device",
-              "text": "Activity logged on a shared or public device (e.g., school, office, café, library computer)"
-            },
-            {
-              "value": "accidental",
-              "text": "Activity logged accidentally or unintentionally (e.g., mis-clicks, accidental searches, auto-suggestions clicked by mistake)"
-            }
-          ]
-        },
-        {
-          "type": "radiogroup",
-          "name": "A5_Q6",
-          "title": "Do you think that the content of these activity logs could possibly contain any sensitive or personal information?",
-          "isRequired": true,
-          "colCount": 3,
-          "choices": [
-            "Yes",
-            "No",
-            "I am not sure"
-          ]
-        },
-        {
-          "type": "comment",
-          "name": "A5_Q7",
-          "title": "Can you please briefly (1–3 sentences) explain your answer choice for the previous question?",
-          "isRequired": false,
-          "maxLength": 600
-        },
-        {
-          "type": "radiogroup",
-          "name": "A5_Q8",
-          "title": "Would you be comfortable with Google storing this activity data (from each of the scenarios discussed above) in your Google Account?",
-          "isRequired": true,
-          "colCount": 3,
-          "choices": [
-            "Yes",
-            "No",
-            "I am not sure"
-          ]
-        },
-        {
-          "type": "matrix",
-          "name": "A5_Q9",
-          "title": "For each of the following cases, when do you think it would be acceptable for Google to collect and store your activity data across its services (e.g., Search, YouTube, Maps, Chrome)?",
-          "description": "On a scale of 1 to 5, with 1 being “Strongly unacceptable” and 5 being “Strongly acceptable”, express your level of agreement for each of the statements given below.",
-          "isRequired": true,
-          "isAllRowRequired": true,
-          "rowTitleWidth": "60%",
-          "alternateRows": true,
-          "verticalAlign": "middle",
-          "columns": [
-            {
-              "value": 1,
-              "text": "1 (Strongly unacceptable)"
-            },
-            {
-              "value": 2,
-              "text": "2"
-            },
-            {
-              "value": 3,
-              "text": "3"
-            },
-            {
-              "value": 4,
-              "text": "4"
-            },
-            {
-              "value": 5,
-              "text": "5 (Strongly acceptable)"
-            }
-          ],
-          "rows": [
-            {
-              "value": "explicit_consent",
-              "text": "If you have explicitly consented to Google collecting your activity data"
-            },
-            {
-              "value": "no_notification",
-              "text": "If Google does not notify you while collecting your activity data"
-            },
-            {
-              "value": "explicit_notification",
-              "text": "If Google explicitly notifies you while collecting some/all of your activity data"
-            },
-            {
-              "value": "anonymized",
-              "text": "If Google anonymizes (removes personally identifiable information from) your activity data before storing it"
-            },
-            {
-              "value": "financial_rewards",
-              "text": "If you get financial rewards (in the form of discounts, gift cards, coupons, etc.) for allowing Google to store your activity data"
-            },
-            {
-              "value": "improve_performance",
-              "text": "If your activity data is used to improve the performance of Google services"
-            },
-            {
-              "value": "personalized_features",
-              "text": "If your activity data is used to develop new or personalized features for you"
-            },
-            {
-              "value": "dashboard_features",
-              "text": "If your activity data is used to develop new features for Google activity dashboard"
-            },
-            {
-              "value": "stored_indefinitely",
-              "text": "If your activity data is stored indefinitely by Google on its data storage facilities"
-            },
-            {
-              "value": "not_stored_indefinitely",
-              "text": "If your activity data is not stored indefinitely by Google on its data storage facilities"
-            }
-          ]
-        },
-        {
-          "type": "comment",
-          "name": "A5_Q10",
-          "title": "Can you please briefly (1–3 sentences) explain your answer choices for the cases that you rated as unacceptable (1 or 2) in the previous question?",
-          "isRequired": false,
-          "maxLength": 600,
-          "visibleIf": "{A5_Q9.explicit_consent} = 1 or {A5_Q9.explicit_consent} = 2 or {A5_Q9.no_notification} = 1 or {A5_Q9.no_notification} = 2 or {A5_Q9.explicit_notification} = 1 or {A5_Q9.explicit_notification} = 2 or {A5_Q9.anonymized} = 1 or {A5_Q9.anonymized} = 2 or {A5_Q9.financial_rewards} = 1 or {A5_Q9.financial_rewards} = 2 or {A5_Q9.improve_performance} = 1 or {A5_Q9.improve_performance} = 2 or {A5_Q9.personalized_features} = 1 or {A5_Q9.personalized_features} = 2 or {A5_Q9.dashboard_features} = 1 or {A5_Q9.dashboard_features} = 2 or {A5_Q9.stored_indefinitely} = 1 or {A5_Q9.stored_indefinitely} = 2 or {A5_Q9.not_stored_indefinitely} = 1 or {A5_Q9.not_stored_indefinitely} = 2"
-        },
-        {
-          "type": "checkbox",
-          "name": "A5_Q11",
-          "title": "After exploring your Google activity dashboard, which product categories did you check out? (Select all that apply)",
-          "isRequired": true,
-          "colCount": 4,
-          "choices": [
-            "Ads",
-            "Android",
-            "Assistant",
-            "Chrome",
-            "Discover",
-            "Drive",
-            "Gmail",
-            "Google Play",
-            "Image Search",
-            "Location History",
-            "Maps",
-            "News",
-            "Search",
-            "Shopping",
-            "Voice & Audio",
-            "YouTube"
-          ],
-          "hasOther": true,
-          "otherText": "Other (please specify)"
-        },
-        {
-          "type": "radiogroup",
-          "name": "A5_Q12",
-          "title": "Would you like to visit your Google “My Activity” dashboard more often in the future?",
-          "isRequired": true,
-          "colCount": 3,
-          "choices": [
-            "Yes",
-            "No",
-            "Maybe"
-          ]
-        },
-        {
-          "type": "comment",
-          "name": "A5_Q13",
-          "title": "Can you please briefly (1–3 sentences) explain your answer choice for the previous question?",
-          "isRequired": false,
-          "maxLength": 600
-        },
-        {
-          "type": "text",
-          "name": "AC_5",
-          "title": "Add 2 with 4. Now multiply the result by 2. Enter the correct answer.",
-          "isRequired": true,
-          "inputType": "number",
-          "placeholder": "Enter a number"
-        },
-        {
-          "type": "radiogroup",
-          "name": "A5_Q14",
-          "title": "How comfortable did you feel while viewing the collected data on your Google “My Activity” dashboard?",
-          "isRequired": true,
-          "colCount": 3,
-          "choices": [
-            "Very comfortable",
-            "Slightly comfortable",
-            "Neither comfortable nor uncomfortable",
-            "Slightly uncomfortable",
-            "Very uncomfortable"
-          ]
-        },
-        {
-          "type": "comment",
-          "name": "A5_Q15",
-          "title": "Can you please briefly (1–3 sentences) explain your answer choice for the previous question?",
-          "isRequired": false,
-          "maxLength": 600
-        },
-        {
-          "type": "radiogroup",
-          "name": "A5_Q16",
-          "title": "How easy or difficult was it for you to find what you were looking for?",
-          "isRequired": true,
-          "colCount": 3,
-          "choices": [
-            "Very easy",
-            "Slightly easy",
-            "Neither easy nor difficult",
-            "Slightly difficult",
-            "Very difficult"
-          ]
-        },
-        {
-          "type": "radiogroup",
-          "name": "A5_Q17",
-          "title": "Did you face any difficulties or problems while navigating through your Google “My Activity” dashboard?",
-          "isRequired": true,
-          "colCount": 3,
-          "choices": [
-            "Yes",
-            "No",
-            "Maybe"
-          ]
-        },
-        {
-          "type": "comment",
-          "name": "A5_Q18",
-          "title": "If Yes, please specify:",
-          "isRequired": false,
-          "maxLength": 600,
-          "visibleIf": "{A5_Q17} = 'Yes'"
-        },
-        {
-          "type": "radiogroup",
-          "name": "A5_Q19",
-          "title": "Would you like some assistance in using your Google “My Activity” dashboard?",
-          "isRequired": true,
-          "colCount": 3,
-          "choices": [
-            "Yes",
-            "No",
-            "Maybe"
-          ]
-        },
-        {
-          "type": "radiogroup",
-          "name": "A5_Q20",
-          "title": "Would you like some assistance in finding sensitive data and deleting it from Google data storage facilities?",
-          "isRequired": true,
-          "colCount": 3,
-          "choices": [
-            "Yes",
-            "No",
-            "Maybe"
-          ]
-        },
-        {
-          "type": "radiogroup",
-          "name": "A5_Q21",
-          "title": "Earlier in this study, we informed you that by default, Google collects a variety of activity data across its services when you are signed into your Google Account. Would you be willing to delete some of the activity data currently stored in your Google Account?",
-          "isRequired": true,
-          "colCount": 3,
-          "choices": [
-            "Yes",
-            "No",
-            "Maybe"
-          ]
-        },
-        {
-          "type": "comment",
-          "name": "A5_Q22",
-          "title": "Can you please briefly (1–3 sentences) explain your answer choice for the previous question?",
-          "isRequired": false,
-          "maxLength": 600
-        },
-        {
-          "type": "radiogroup",
-          "name": "A5_Q23",
-          "title": "Google provides users with options to automatically delete their activity data after 3 months or 18 months. Would you be willing to enable the auto-delete setting for your Google activity data?",
-          "isRequired": true,
-          "colCount": 3,
-          "choices": [
-            "Yes",
-            "No",
-            "Maybe"
-          ]
-        },
-        {
-          "type": "radiogroup",
-          "name": "A5_Q24",
-          "title": "Did you know about this option prior to today’s study?",
-          "isRequired": true,
-          "colCount": 3,
-          "choices": [
-            "Yes",
-            "No",
-            "Maybe"
-          ]
-        },
-        {
-          "type": "radiogroup",
-          "name": "A5_Q25",
-          "title": "Do you feel that tech companies, in general, tend to make it difficult for users to access, review, or manage their collected data?",
-          "isRequired": true,
-          "colCount": 3,
-          "choices": [
-            "Yes",
-            "No",
-            "Maybe"
-          ]
-        },
-        {
-          "type": "radiogroup",
-          "name": "AC_6",
-          "title": "Select the wrong answer on purpose: What colour is the sky on a clear sunny day?",
-          "isRequired": true,
-          "colCount": 4,
-          "choices": [
-            "Green",
-            "Purple",
-            "Pink",
-            "Yellow"
-          ]
-        },
-        {
-          "type": "radiogroup",
-          "name": "A5_Q26",
-          "title": "Have you ever gone through Google’s privacy policy or data practices documentation?",
-          "isRequired": true,
-          "colCount": 3,
-          "choices": [
-            "Yes",
-            "No",
-            "Maybe"
-          ]
-        },
-        {
-          "type": "rating",
-          "name": "A5_Q27",
-          "title": "On a scale of 1 to 5, with 1 being the least and 5 being the most, how much do you trust Google not to misuse your activity data, after participating in this study?",
-          "isRequired": true,
-          "rateCount": 5,
-          "rateMin": 1,
-          "rateMax": 5,
-          "minRateDescription": "1 = Least",
-          "maxRateDescription": "5 = Most"
+          "html": "<p>In the following section, we will ask you some questions to learn more about your usage of the Google “My Activity” dashboard, as well as how you interact with Google services that contribute to your stored activity. We will also ask a few questions regarding your cross-device Google usage.</p><div style='background:#fff; border-left:5px solid #19b394; border-radius:8px; padding:14px 18px; margin:18px 0;'><div style='font-weight:700; font-size:17px; margin-bottom:6px;'>What is a Google activity log?</div><p style='margin:0 0 12px 0;'>It is the information Google collects based on your interactions with its products and services. These logs are stored in your Google “My Activity” dashboard and may differ across devices and products. (See the figure below)</p><div style='font-weight:600; font-size:14px; margin-bottom:8px;'>It may include:</div><div style='display:flex; flex-wrap:wrap; gap:8px;'><span style='background:#e8f6f3; color:#0f6b5a; padding:4px 12px; border-radius:999px; font-size:14px;'>🔍 Searches</span><span style='background:#e8f6f3; color:#0f6b5a; padding:4px 12px; border-radius:999px; font-size:14px;'>🌐 Websites visited</span><span style='background:#e8f6f3; color:#0f6b5a; padding:4px 12px; border-radius:999px; font-size:14px;'>📱 Apps used</span><span style='background:#e8f6f3; color:#0f6b5a; padding:4px 12px; border-radius:999px; font-size:14px;'>▶️ Videos watched</span><span style='background:#e8f6f3; color:#0f6b5a; padding:4px 12px; border-radius:999px; font-size:14px;'>🎙️ Voice and audio interactions</span><span style='background:#e8f6f3; color:#0f6b5a; padding:4px 12px; border-radius:999px; font-size:14px;'>📍 Location history</span></div><p style='margin:12px 0 0 0; font-size:14px; color:#555;'>Logs may also include timestamps, device details, product information, and in some cases the content of your activity (e.g., what you searched for or watched).</p></div><div style='text-align:center; margin:16px 0;'><img src='/p1.png' style='max-width:80%; border-radius:10px;' /><div style='font-size:13px; color:#555; margin-top:6px;'>Figure: Example representation of Google activity logs</div></div><div style='font-weight:700; font-size:17px; margin:22px 0 10px 0;'>Where do activity logs come from, and how are they stored?</div><div style='display:flex; flex-wrap:wrap; gap:14px; align-items:stretch;'><div style='flex:1 1 220px; min-width:0; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px; box-sizing:border-box;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>🔐</div><div style='font-weight:600; margin-bottom:6px;'>When you are signed in</div><div style='font-size:15px; color:#444;'>Google stores activity when you use services such as Search, YouTube, Maps, Chrome, and others while signed into your Google Account.</div></div><div style='flex:1 1 220px; min-width:0; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px; box-sizing:border-box;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>💻</div><div style='font-weight:600; margin-bottom:6px;'>Across multiple devices</div><div style='font-size:15px; color:#444;'>Activity may be stored from several devices at the same time if the same Google Account is signed in on them.</div></div><div style='flex:1 1 220px; min-width:0; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px; box-sizing:border-box;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>🗂️</div><div style='font-weight:600; margin-bottom:6px;'>You can view and manage it</div><div style='font-size:15px; color:#444;'>You can view, delete, or manage these activities by visiting <a href='https://myactivity.google.com' target='_blank'>https://myactivity.google.com</a>.</div></div></div>"
         }
       ]
     },
     {
       "name": "A6",
       "title": "Installing the extension (ADA)",
-      "elements": []
+      "elements": [
+        {
+          "type": "html",
+          "name": "A6_T1",
+          "html": "<p>In this part, you will be asked to install a browser extension that we designed for the research called <b>ADA (Adaptive Data DAshboard)</b>. Follow the instructions given below.</p><div style='background:#fff; border-left:5px solid #19b394; border-radius:8px; padding:14px 18px; margin:18px 0;'><div style='font-weight:700; font-size:17px; margin-bottom:6px;'>🔒 Your privacy</div><p style='margin:0;'>You will <u>NOT</u> be required to share your Google activity data with us at any stage of the study. Our study involves interacting with a browser extension that <b>runs entirely on your device</b> and processes your data locally, without sending any information outside your browser.</p></div><div style='display:flex; flex-wrap:wrap; gap:14px; align-items:stretch; margin:14px 0;'><div style='flex:1 1 300px; min-width:0; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #d9534f; border-radius:10px; padding:16px; box-sizing:border-box;'><div style='font-weight:700; margin-bottom:10px;'>What we DO NOT collect</div><div style='display:flex; flex-wrap:wrap; gap:8px;'><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ Name</span><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ Address</span><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ Email address</span><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ Date of birth</span><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ Phone number</span><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ Images</span><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ Videos</span><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ Contacts</span><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ Location data</span><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ ZIP/postcode</span><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ Links to social media accounts or posts</span></div></div><div style='flex:1 1 300px; min-width:0; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px; box-sizing:border-box;'><div style='font-weight:700; margin-bottom:10px;'>What we DO keep</div><div style='font-size:15px; color:#444;'>Only logs of your <b>interaction activity</b> while using the extension. These do <b>not</b> include any raw data or personal information.</div></div></div><div style='font-weight:700; font-size:17px; margin:24px 0 10px 0;'>Please follow the steps below to install and set up the ADA browser extension.</div><div style='display:flex; flex-wrap:wrap; gap:14px; align-items:stretch; margin:8px 0;'><div style='flex:1 1 calc(50% - 7px); min-width:280px; box-sizing:border-box; display:flex; gap:14px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-radius:10px; padding:12px 16px;'><div style='flex:0 0 32px; width:32px; height:32px; border-radius:50%; background:#19b394; color:#fff; font-weight:700; display:flex; align-items:center; justify-content:center;'>1</div><div style='font-size:15px;'>Open <b>Google Chrome</b> on your desktop/laptop.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:280px; box-sizing:border-box; display:flex; gap:14px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-radius:10px; padding:12px 16px;'><div style='flex:0 0 32px; width:32px; height:32px; border-radius:50%; background:#19b394; color:#fff; font-weight:700; display:flex; align-items:center; justify-content:center;'>2</div><div style='font-size:15px;'>Log into your <b>Google Account</b>.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:280px; box-sizing:border-box; display:flex; gap:14px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-radius:10px; padding:12px 16px;'><div style='flex:0 0 32px; width:32px; height:32px; border-radius:50%; background:#19b394; color:#fff; font-weight:700; display:flex; align-items:center; justify-content:center;'>3</div><div style='font-size:15px;'>Open a new tab and visit: <a href='https://myactivity.google.com/' target='_blank'>https://myactivity.google.com/</a> and <b>keep the tab open</b>.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:280px; box-sizing:border-box; display:flex; gap:14px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-radius:10px; padding:12px 16px;'><div style='flex:0 0 32px; width:32px; height:32px; border-radius:50%; background:#19b394; color:#fff; font-weight:700; display:flex; align-items:center; justify-content:center;'>4</div><div style='font-size:15px;'>Visit the extension installation link provided below:<br><a href='REPLACE_WITH_EXTENSION_LINK' target='_blank' style='display:inline-block; margin-top:8px; background:#19b394; color:#fff; padding:8px 18px; border-radius:6px; text-decoration:none; font-weight:600; font-size:15px;'>Open extension link ↗</a></div></div><div style='flex:1 1 calc(50% - 7px); min-width:280px; box-sizing:border-box; display:flex; gap:14px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-radius:10px; padding:12px 16px;'><div style='flex:0 0 32px; width:32px; height:32px; border-radius:50%; background:#19b394; color:#fff; font-weight:700; display:flex; align-items:center; justify-content:center;'>5</div><div style='font-size:15px;'>Click <b>“Add to Chrome” → “Add Extension”</b>.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:280px; box-sizing:border-box; display:flex; gap:14px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-radius:10px; padding:12px 16px;'><div style='flex:0 0 32px; width:32px; height:32px; border-radius:50%; background:#19b394; color:#fff; font-weight:700; display:flex; align-items:center; justify-content:center;'>6</div><div style='font-size:15px;'>Once installed, <b>pin the extension</b> to your browser toolbar.</div></div></div>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "A6_Q1",
+          "title": "Were you able to successfully install and open the ADA extension?",
+          "isRequired": true,
+          "colCount": 4,
+          "choices": [
+            "Yes",
+            "No",
+            "Faced some difficulty"
+          ]
+        },
+        {
+          "type": "comment",
+          "name": "A6_Q2",
+          "title": "If you faced some difficulty, please briefly (1–3 sentences) explain the issue:",
+          "visibleIf": "{A6_Q1} = 'Faced some difficulty'",
+          "isRequired": false,
+          "rows": 2
+        },
+        {
+          "type": "html",
+          "name": "A6_T2",
+          "html": "<p>Now that you have successfully installed the <b>ADA (Adaptive Data Dashboard)</b> extension, we request you to take a few minutes to explore it. The purpose is simply to help you get familiar with how ADA works.</p><div style='background:#fff; border-left:5px solid #19b394; border-radius:8px; padding:14px 18px; margin:18px 0;'><div style='font-weight:700; font-size:17px; margin-bottom:6px;'>🔒 Your privacy</div><p style='margin:0;'>ADA processes your Google Activity data <b>locally on your device</b>, ensuring full privacy while helping you better understand your digital footprint.</p></div><div style='font-weight:700; font-size:17px; margin:24px 0 10px 0;'>As you explore ADA, you may want to try the following:</div><div style='display:flex; flex-wrap:wrap; gap:14px; align-items:stretch; margin:8px 0;'><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>🧩</div><div style='font-size:15px; color:#444;'>Open the <b>ADA extension</b> from the Chrome toolbar to view your recent activity entries.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>⏳</div><div style='font-size:15px; color:#444;'><b>Wait for the activity to load</b> — ADA scans and organizes your entries directly from the Google “My Activity” page.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>📊</div><div style='font-size:15px; color:#444;'>Notice the <b>sensitivity scores</b> displayed next to each activity (higher scores indicate potentially more personal or sensitive data).</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>🖱️</div><div style='font-size:15px; color:#444;'><b>Try at least one feature</b> such as filtering, sorting, viewing details, or navigating through activity items.</div></div></div><div style='background:#fff8e6; border-left:5px solid #f0ad4e; border-radius:8px; padding:14px 18px; margin:24px 0 8px 0;'><div style='font-weight:700; font-size:17px; margin-bottom:6px;'>✅ When you feel familiar with ADA</div><p style='margin:0 0 10px 0;'>Once you feel familiar with the interface, press the button inside the <b>ADA dashboard</b> that generates a unique <b>6-digit code</b>.</p><div style='text-align:center; margin:12px 0;'><img src='/p2.png' style='max-width:100%; border:1px solid #e3e3e3; border-radius:6px;' /></div><p style='margin:0;'><b>Copy and paste that code below.</b> After submitting the code, you will continue to the <b>First-Use Experience</b> section.</p></div>"
+        },
+        {
+          "type": "text",
+          "name": "A6_Q3",
+          "title": "Please enter the 6-digit code generated by the ADA dashboard:",
+          "isRequired": true,
+          "inputType": "text",
+          "placeholder": "Enter 6-digit code",
+          "validators": [
+            {
+              "type": "regex",
+              "regex": "^[0-9]{6}$",
+              "text": "Please enter exactly 6 digits."
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "A7",
