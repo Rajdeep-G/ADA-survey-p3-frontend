@@ -1,5 +1,4 @@
 {
-  
   "showProgressBar": "bottom",
   "firstPageIsStarted": false,
   "pageNextText": "Next subsection",
@@ -7,7 +6,7 @@
   "showQuestionNumbers": "off",
   "widthMode": "responsive",
   "pages": [
-        {
+    {
       "name": "A1",
       "title": "Google Account and Service Usage",
       "elements": [
@@ -907,6 +906,226 @@
             "Yes",
             "No",
             "Maybe"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A5",
+      "title": "Usage of Google Activity Dashboard",
+      "elements": []
+    },
+    {
+      "name": "A6",
+      "title": "Installing the extension (ADA)",
+      "elements": []
+    },
+    {
+      "name": "A7",
+      "title": "First-Use Experience Survey",
+      "elements": []
+    },
+    {
+      "name": "A8",
+      "title": " IUIPC Awareness and Collection Subscales",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "AC_9",
+          "title": "Select “Often” only if you read the instructions carefully. Otherwise select “Never”. How often do you eat chicken for breakfast?",
+          "isRequired": true,
+          "colCount": 4,
+          "choices": [
+            "Often",
+            "Rarely",
+            "Never",
+            "Not sure"
+          ]
+        },
+        {
+          "type": "matrix",
+          "name": "A8_Q1",
+          "title": "Please indicate how much you agree or disagree with each of the following statements.",
+          "isRequired": true,
+          "isAllRowRequired": true,
+          "rowTitleWidth": "80%",
+          "alternateRows": true,
+          "verticalAlign": "middle",
+          "columns": [
+            {
+              "value": "strongly_agree",
+              "text": "Strongly agree"
+            },
+            {
+              "value": "agree",
+              "text": "Agree"
+            },
+            {
+              "value": "somewhat_agree",
+              "text": "Somewhat agree"
+            },
+            {
+              "value": "neutral",
+              "text": "Neither agree nor disagree"
+            },
+            {
+              "value": "somewhat_disagree",
+              "text": "Somewhat disagree"
+            },
+            {
+              "value": "disagree",
+              "text": "Disagree"
+            },
+            {
+              "value": "strongly_disagree",
+              "text": "Strongly disagree"
+            }
+          ],
+          "rows": [
+            {
+              "value": "awareness_disclose",
+              "text": "Companies seeking information online should disclose the way the data are collected, processed, and used."
+            },
+            {
+              "value": "awareness_policy",
+              "text": "A good consumer online privacy policy should have a clear and conspicuous disclosure."
+            },
+            {
+              "value": "awareness_important",
+              "text": "It is very important to me that I am aware and knowledgeable about how my personal information will be used."
+            },
+            {
+              "value": "collection_bothers_ask",
+              "text": "It usually bothers me when online companies ask me for personal information."
+            },
+            {
+              "value": "collection_think_twice",
+              "text": "When online companies ask me for personal information, I sometimes think twice before providing it."
+            },
+            {
+              "value": "collection_bothers_many",
+              "text": "It bothers me to give personal information to so many online companies."
+            },
+            {
+              "value": "collection_too_much",
+              "text": "I’m concerned that online companies are collecting too much personal information about me."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A9",
+      "title": "Demographics",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "A9_Q1",
+          "title": "With what gender do you identify?",
+          "isRequired": true,
+          "colCount": 4,
+          "choices": [
+            "Woman",
+            "Man",
+            "Non-binary",
+            "Prefer not to answer"
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "A9_Q2",
+          "title": "What is your age?",
+          "isRequired": true,
+          "colCount": 4,
+          "choices": [
+            "Younger than 18",
+            "18-24",
+            "25-34",
+            "35-44",
+            "45-54",
+            "55-64",
+            "65 or older",
+            "I don’t know",
+            "Prefer not to say"
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "AC_10",
+          "title": "Which of the following statements is true about the ADA extension used in this study?",
+          "isRequired": true,
+          "colCount": 2,
+          "choices": [
+            "ADA sends your Google Activity data to the researchers",
+            "ADA sells your data to third parties",
+            "ADA processes data locally on your device and does not send data outside your browser",
+            "ADA reads your emails and contacts"
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "A9_Q3",
+          "title": "Can you please specify your ethnicity? (Select all that apply)",
+          "isRequired": true,
+          "colCount": 4,
+          "choices": [
+            "White",
+            "Hispanic or Latino",
+            "Black or African American",
+            "Native American or American Indian",
+            "Asian/Pacific Islander"
+          ],
+          "hasOther": true,
+          "otherText": "Other (please specify)",
+          "showNoneItem": true,
+          "noneText": "Prefer not to answer"
+        },
+        {
+          "type": "radiogroup",
+          "name": "A9_Q4",
+          "title": "What is the highest degree or level of school you have completed?",
+          "isRequired": true,
+          "colCount": 3,
+          "choices": [
+            "No formal education",
+            "Nursery school to 8th grade",
+            "Some high school, no diploma",
+            "High school graduate, diploma or the equivalent",
+            "Some college credit, no degree",
+            "Trade, technical, or vocational training",
+            "Associate’s degree",
+            "Bachelor’s degree",
+            "Master’s degree",
+            "Professional degree",
+            "Doctorate degree",
+            "Prefer not to answer"
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "A9_Q5",
+          "title": "What is your employment status?",
+          "isRequired": true,
+          "colCount": 3,
+          "choices": [
+            "Student",
+            "Full-time employed",
+            "Part-time employed",
+            "Not employed",
+            "Retired",
+            "Prefer not to answer"
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "A9_Q6",
+          "title": "Are you majoring in or do you have a degree or job in computer science, computer engineering, information technology, or a related field?",
+          "isRequired": true,
+          "colCount": 3,
+          "choices": [
+            "Yes",
+            "No",
+            "Prefer not to answer"
           ]
         }
       ]
