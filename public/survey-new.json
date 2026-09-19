@@ -917,13 +917,12 @@
         {
           "type": "html",
           "name": "A5_T1",
-          "html": "<p>In the following section, we will ask you some questions to learn more about your usage of the Google “My Activity” dashboard, as well as how you interact with Google services that contribute to your stored activity. We will also ask a few questions regarding your cross-device Google usage.</p><div style='background:#fff; border-left:5px solid #19b394; border-radius:8px; padding:14px 18px; margin:18px 0;'><div style='font-weight:700; font-size:17px; margin-bottom:6px;'>What is a Google activity log?</div><p style='margin:0 0 12px 0;'>It is the information Google collects based on your interactions with its products and services. These logs are stored in your Google “My Activity” dashboard and may differ across devices and products. (See the figure below)</p><div style='font-weight:600; font-size:14px; margin-bottom:8px;'>It may include:</div><div style='display:flex; flex-wrap:wrap; gap:8px;'><span style='background:#e8f6f3; color:#0f6b5a; padding:4px 12px; border-radius:999px; font-size:14px;'>🔍 Searches</span><span style='background:#e8f6f3; color:#0f6b5a; padding:4px 12px; border-radius:999px; font-size:14px;'>🌐 Websites visited</span><span style='background:#e8f6f3; color:#0f6b5a; padding:4px 12px; border-radius:999px; font-size:14px;'>📱 Apps used</span><span style='background:#e8f6f3; color:#0f6b5a; padding:4px 12px; border-radius:999px; font-size:14px;'>▶️ Videos watched</span><span style='background:#e8f6f3; color:#0f6b5a; padding:4px 12px; border-radius:999px; font-size:14px;'>🎙️ Voice and audio interactions</span><span style='background:#e8f6f3; color:#0f6b5a; padding:4px 12px; border-radius:999px; font-size:14px;'>📍 Location history</span></div><p style='margin:12px 0 0 0; font-size:14px; color:#555;'>Logs may also include timestamps, device details, product information, and in some cases the content of your activity (e.g., what you searched for or watched).</p></div><div style='text-align:center; margin:16px 0;'><img src='/p1.png' style='max-width:80%; border-radius:10px;' /><div style='font-size:13px; color:#555; margin-top:6px;'>Figure: Example representation of Google activity logs</div></div><div style='font-weight:700; font-size:17px; margin:22px 0 10px 0;'>Where do activity logs come from, and how are they stored?</div><div style='display:flex; flex-wrap:wrap; gap:14px; align-items:stretch;'><div style='flex:1 1 220px; min-width:0; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px; box-sizing:border-box;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>🔐</div><div style='font-weight:600; margin-bottom:6px;'>When you are signed in</div><div style='font-size:15px; color:#444;'>Google stores activity when you use services such as Search, YouTube, Maps, Chrome, and others while signed into your Google Account.</div></div><div style='flex:1 1 220px; min-width:0; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px; box-sizing:border-box;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>💻</div><div style='font-weight:600; margin-bottom:6px;'>Across multiple devices</div><div style='font-size:15px; color:#444;'>Activity may be stored from several devices at the same time if the same Google Account is signed in on them.</div></div><div style='flex:1 1 220px; min-width:0; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px; box-sizing:border-box;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>🗂️</div><div style='font-weight:600; margin-bottom:6px;'>You can view and manage it</div><div style='font-size:15px; color:#444;'>You can view, delete, or manage these activities by visiting <a href='https://myactivity.google.com' target='_blank'>https://myactivity.google.com</a>.</div></div></div>"
+          "html": "<p>In the following section, we will ask you some questions to learn more about your usage of the Google “My Activity” dashboard, as well as how you interact with Google services that contribute to your stored activity. We will also ask a few questions regarding your cross-device Google usage.</p><div style='background:#fff; border-left:5px solid #19b394; border-radius:8px; padding:14px 18px; margin:18px 0;'><div style='font-weight:700; font-size:17px; margin-bottom:6px;'>What is a Google activity log?</div><p style='margin:0 0 12px 0;'>It is the information Google collects based on your interactions with its products and services. These logs are stored in your Google “My Activity” dashboard and may differ across devices and products. (See the figure below)</p><div style='display:flex; flex-wrap:wrap; gap:8px;'>It may include <span style='background:#e8f6f3; color:#0f6b5a; padding:4px 12px; border-radius:999px; font-size:14px;'>🔍 Searches</span><span style='background:#e8f6f3; color:#0f6b5a; padding:4px 12px; border-radius:999px; font-size:14px;'>🌐 Websites visited</span><span style='background:#e8f6f3; color:#0f6b5a; padding:4px 12px; border-radius:999px; font-size:14px;'>📱 Apps used</span><span style='background:#e8f6f3; color:#0f6b5a; padding:4px 12px; border-radius:999px; font-size:14px;'>▶️ Videos watched</span><span style='background:#e8f6f3; color:#0f6b5a; padding:4px 12px; border-radius:999px; font-size:14px;'>🎙️ Voice and audio interactions</span><span style='background:#e8f6f3; color:#0f6b5a; padding:4px 12px; border-radius:999px; font-size:14px;'>📍 Location history</span></div><p style='margin:12px 0 0 0; font-size:14px; color:#555;'>Logs may also include timestamps, device details, product information, and in some cases the content of your activity (e.g., what you searched for or watched).</p></div><div style='text-align:center; margin:16px 0;'><img src='/p1.png' style='max-width:80%; border-radius:10px;' /><div style='font-size:13px; color:#555; margin-top:6px;'>Figure: Example representation of Google activity logs</div></div><div style='font-weight:700; font-size:17px; margin:22px 0 10px 0;'><div style='font-weight:600; margin-bottom:12px;'>Where do activity logs come from, and how are they stored?</div><div style='display:flex; flex-wrap:wrap; gap:24px;'><div style='flex:1 1 200px; min-width:0; border-top:1px solid rgba(128,128,128,0.4); padding-top:10px; box-sizing:border-box;'><div style='font-weight:600; margin-bottom:4px;'>When you are signed in</div><div style='font-size:15px; line-height:1.5; opacity:0.8;'>Google stores activity when you use services such as Search, YouTube, Maps, Chrome, and others while signed into your Google Account.</div></div><div style='flex:1 1 200px; min-width:0; border-top:1px solid rgba(128,128,128,0.4); padding-top:10px; box-sizing:border-box;'><div style='font-weight:600; margin-bottom:4px;'>Across multiple devices</div><div style='font-size:15px; line-height:1.5; opacity:0.8;'>Activity may be stored from several devices at the same time if the same Google Account is signed in on them.</div></div><div style='flex:1 1 200px; min-width:0; border-top:1px solid rgba(128,128,128,0.4); padding-top:10px; box-sizing:border-box;'><div style='font-weight:600; margin-bottom:4px;'>You can view and manage it</div><div style='font-size:15px; line-height:1.5; opacity:0.8;'>You can view, delete, or manage these activities by visiting <a href='https://myactivity.google.com' target='_blank' rel='noopener noreferrer'>https://myactivity.google.com</a>.</div></div></div>"
         },
-
         {
           "type": "html",
           "name": "A5_T2",
-          "html": "<p>Before continuing, please complete a few quick tasks on your Google “My Activity” dashboard (<a href='https://myactivity.google.com' target='_blank' rel='noopener noreferrer'>https://myactivity.google.com</a>) to help you recall what’s stored in your account.</p><ol><li><strong>Visit your dashboard</strong> — scroll through your recent activity.</li><li><strong>Filter by category</strong> — use “Filter by date &amp; product” to check at least 3 different Google products.</li><li><strong>Filter by time</strong> — view activity for Today, Yesterday, and Last 30 days.</li></ol>"
+          "html": "<div style='border:1px solid rgba(37,99,235,0.35); border-left:5px solid #2563eb; border-radius:10px; padding:12px 16px; background:rgba(37,99,235,0.06); box-sizing:border-box;'><div style='display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:10px 20px; margin-bottom:12px;'><div style='flex:1 1 320px; min-width:0;'><div style='font-size:12px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:#2563eb; margin-bottom:4px;'>Quick task before you continue</div><div style='line-height:1.4;'>Before continuing, please complete a few quick tasks on your Google “My Activity” dashboard to help you recall what’s stored in your account.</div></div><a href='https://myactivity.google.com' target='_blank' rel='noopener noreferrer' style='flex:0 0 auto; white-space:nowrap; display:inline-block; background:#2563eb; color:#ffffff; text-decoration:none; font-weight:600; padding:9px 16px; border-radius:8px;'>Open myactivity.google.com</a></div><div style='display:flex; flex-wrap:wrap; gap:12px 20px; border-top:1px solid rgba(37,99,235,0.25); padding-top:12px;'><div style='flex:1 1 220px; min-width:0; display:flex; gap:10px; align-items:flex-start;'><div style='flex:0 0 26px; width:26px; height:26px; border-radius:50%; background:#2563eb; color:#ffffff; font-weight:700; font-size:14px; display:flex; align-items:center; justify-content:center;'>1</div><div style='line-height:1.35;'><strong>Visit your dashboard</strong><br>Scroll through your recent activity.</div></div><div style='flex:1 1 220px; min-width:0; display:flex; gap:10px; align-items:flex-start;'><div style='flex:0 0 26px; width:26px; height:26px; border-radius:50%; background:#2563eb; color:#ffffff; font-weight:700; font-size:14px; display:flex; align-items:center; justify-content:center;'>2</div><div style='line-height:1.35;'><strong>Filter by category</strong><br>Use “Filter by date &amp; product” to check at least 3 different Google products.</div></div><div style='flex:1 1 220px; min-width:0; display:flex; gap:10px; align-items:flex-start;'><div style='flex:0 0 26px; width:26px; height:26px; border-radius:50%; background:#2563eb; color:#ffffff; font-weight:700; font-size:14px; display:flex; align-items:center; justify-content:center;'>3</div><div style='line-height:1.35;'><strong>Filter by time</strong><br>View activity for Today, Yesterday, and Last 30 days.</div></div></div></div>"
         },
         {
           "type": "checkbox",
@@ -1442,12 +1441,430 @@
     {
       "name": "A6",
       "title": "Installing the extension (ADA)",
-      "elements": []
+      "elements": [
+        {
+          "type": "html",
+          "name": "A6_T1",
+          "html": "<p>In this part, you will be asked to install a browser extension that we designed for the research called <b>ADA (Adaptive Data DAshboard)</b>. Follow the instructions given below.</p><div style='background:#fff; border-left:5px solid #19b394; border-radius:8px; padding:14px 18px; margin:18px 0;'><div style='font-weight:700; font-size:17px; margin-bottom:6px;'>🔒 Your privacy</div><p style='margin:0;'>You will <u>NOT</u> be required to share your Google activity data with us at any stage of the study. Our study involves interacting with a browser extension that <b>runs entirely on your device</b> and processes your data locally, without sending any information outside your browser.</p></div><div style='display:flex; flex-wrap:wrap; gap:14px; align-items:stretch; margin:14px 0;'><div style='flex:1 1 300px; min-width:0; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #d9534f; border-radius:10px; padding:16px; box-sizing:border-box;'><div style='font-weight:700; margin-bottom:10px;'>What we DO NOT collect</div><div style='display:flex; flex-wrap:wrap; gap:8px;'><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ Name</span><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ Address</span><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ Email address</span><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ Date of birth</span><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ Phone number</span><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ Images</span><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ Videos</span><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ Contacts</span><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ Location data</span><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ ZIP/postcode</span><span style='background:#fdecea; color:#a1281b; padding:4px 12px; border-radius:999px; font-size:14px;'>✕ Links to social media accounts or posts</span></div></div><div style='flex:1 1 300px; min-width:0; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px; box-sizing:border-box;'><div style='font-weight:700; margin-bottom:10px;'>What we DO keep</div><div style='font-size:15px; color:#444;'>Only logs of your <b>interaction activity</b> while using the extension. These do <b>not</b> include any raw data or personal information.</div></div></div><div style='font-weight:700; font-size:17px; margin:24px 0 10px 0;'>Please follow the steps below to install and set up the ADA browser extension.</div><div style='display:flex; flex-wrap:wrap; gap:14px; align-items:stretch; margin:8px 0;'><div style='flex:1 1 calc(50% - 7px); min-width:280px; box-sizing:border-box; display:flex; gap:14px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-radius:10px; padding:12px 16px;'><div style='flex:0 0 32px; width:32px; height:32px; border-radius:50%; background:#19b394; color:#fff; font-weight:700; display:flex; align-items:center; justify-content:center;'>1</div><div style='font-size:15px;'>Open <b>Google Chrome</b> on your desktop/laptop.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:280px; box-sizing:border-box; display:flex; gap:14px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-radius:10px; padding:12px 16px;'><div style='flex:0 0 32px; width:32px; height:32px; border-radius:50%; background:#19b394; color:#fff; font-weight:700; display:flex; align-items:center; justify-content:center;'>2</div><div style='font-size:15px;'>Log into your <b>Google Account</b>.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:280px; box-sizing:border-box; display:flex; gap:14px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-radius:10px; padding:12px 16px;'><div style='flex:0 0 32px; width:32px; height:32px; border-radius:50%; background:#19b394; color:#fff; font-weight:700; display:flex; align-items:center; justify-content:center;'>3</div><div style='font-size:15px;'>Open a new tab and visit: <a href='https://myactivity.google.com/' target='_blank'>https://myactivity.google.com/</a> and <b>keep the tab open</b>.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:280px; box-sizing:border-box; display:flex; gap:14px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-radius:10px; padding:12px 16px;'><div style='flex:0 0 32px; width:32px; height:32px; border-radius:50%; background:#19b394; color:#fff; font-weight:700; display:flex; align-items:center; justify-content:center;'>4</div><div style='font-size:15px;'>Visit the extension installation link provided below:<br><a href='REPLACE_WITH_EXTENSION_LINK' target='_blank' style='display:inline-block; margin-top:8px; background:#19b394; color:#fff; padding:8px 18px; border-radius:6px; text-decoration:none; font-weight:600; font-size:15px;'>Open extension link ↗</a></div></div><div style='flex:1 1 calc(50% - 7px); min-width:280px; box-sizing:border-box; display:flex; gap:14px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-radius:10px; padding:12px 16px;'><div style='flex:0 0 32px; width:32px; height:32px; border-radius:50%; background:#19b394; color:#fff; font-weight:700; display:flex; align-items:center; justify-content:center;'>5</div><div style='font-size:15px;'>Click <b>“Add to Chrome” → “Add Extension”</b>.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:280px; box-sizing:border-box; display:flex; gap:14px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-radius:10px; padding:12px 16px;'><div style='flex:0 0 32px; width:32px; height:32px; border-radius:50%; background:#19b394; color:#fff; font-weight:700; display:flex; align-items:center; justify-content:center;'>6</div><div style='font-size:15px;'>Once installed, <b>pin the extension</b> to your browser toolbar.</div></div></div>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "A6_Q1",
+          "title": "Were you able to successfully install and open the ADA extension?",
+          "isRequired": true,
+          "colCount": 4,
+          "choices": [
+            "Yes",
+            "No",
+            "Faced some difficulty"
+          ]
+        },
+        {
+          "type": "comment",
+          "name": "A6_Q2",
+          "title": "If you faced some difficulty, please briefly (1–3 sentences) explain the issue:",
+          "visibleIf": "{A6_Q1} = 'Faced some difficulty'",
+          "isRequired": false,
+          "rows": 2
+        },
+        {
+          "type": "html",
+          "name": "A6_T2",
+          "html": "<p>Now that you have successfully installed the <b>ADA (Adaptive Data Dashboard)</b> extension, we request you to take a few minutes to explore it. The purpose is simply to help you get familiar with how ADA works.</p><div style='font-weight:700; font-size:17px; margin:24px 0 10px 0;'>As you explore ADA, you may want to try the following:</div><div style='display:flex; flex-wrap:wrap; gap:14px; align-items:stretch; margin:8px 0;'><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>🧩</div><div style='font-size:15px; color:#444;'>Open the <b>ADA extension</b> from the Chrome toolbar to view your recent activity entries.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>⏳</div><div style='font-size:15px; color:#444;'><b>Wait for the activity to load</b> — ADA scans and organizes your entries directly from the Google “My Activity” page.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>📊</div><div style='font-size:15px; color:#444;'>Notice the <b>sensitivity scores</b> displayed next to each activity (higher scores indicate potentially more personal or sensitive data).</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>🖱️</div><div style='font-size:15px; color:#444;'><b>Try at least one feature</b> such as filtering, sorting, viewing details, or navigating through activity items.</div></div></div><div style='background:#fff8e6; border-left:5px solid #f0ad4e; border-radius:8px; padding:14px 18px; margin:24px 0 8px 0;'><div style='font-weight:700; font-size:17px; margin-bottom:6px;'>✅ When you feel familiar with ADA</div><p style='margin:0 0 10px 0;'>Once you feel familiar with the interface, press the button inside the <b>ADA dashboard</b> that generates a unique <b>6-digit code</b>.</p><div style='text-align:center; margin:12px 0;'><img src='/p2.png' style='max-width:100%; border:1px solid #e3e3e3; border-radius:6px;' /></div><p style='margin:0;'><b>Copy and paste that code below.</b> After submitting the code, you will continue to the <b>First-Use Experience</b> section.</p></div>"
+        },
+        {
+          "type": "text",
+          "name": "A6_Q3",
+          "title": "Please enter the 6-digit code generated by the ADA dashboard:",
+          "isRequired": true,
+          "inputType": "text",
+          "placeholder": "Enter 6-digit code",
+          "validators": [
+            {
+              "type": "regex",
+              "regex": "^[0-9A-Z]{6}$",
+              "text": "Please enter exactly 6 digits."
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "A7",
       "title": "First-Use Experience Survey",
-      "elements": []
+      "elements": [
+        {
+          "type": "html",
+          "name": "A7_T1",
+          "html": "<p>Thank you for trying ADA for the first time. Before you continue to use it over the coming days, we’d love to understand how your initial experience felt. Your responses will help us improve ADA so that it feels even more helpful, intuitive, and comfortable for users like you.</p><p>Please briefly (1–3 sentences) explain:</p>"
+        },
+        {
+          "type": "comment",
+          "name": "A7_Q1",
+          "title": "How would you describe your immediate reaction to ADA?",
+          "isRequired": true,
+          "maxLength": 600
+        },
+        {
+          "type": "comment",
+          "name": "A7_Q2",
+          "title": "What do you think is the purpose of this browser extension, ADA?",
+          "isRequired": true,
+          "maxLength": 600
+        },
+        {
+          "type": "comment",
+          "name": "A7_Q3",
+          "title": "What task do you think you could accomplish using this browser extension, ADA?",
+          "isRequired": true,
+          "maxLength": 600
+        },
+        {
+          "type": "html",
+          "name": "A7_T2",
+          "html": "<p>You have just explored ADA and seen how it orders your activity items by sensitivity score. We would now like to know how you would rate some of those same items. You will <strong>not</strong> be asked to type or describe any of your activities.</p><p><strong>Step 1.</strong> Open the ADA dashboard. Your activity items are listed in order of sensitivity score, with the highest score at the top.</p><p><strong>Step 2.</strong> Find the following nine items in your ADA list and keep them in mind. You may want to keep ADA open in a separate window while you answer.</p><div style='display:flex;flex-wrap:wrap;gap:12px;margin:12px 0 18px 0;'><div style='flex:1 1 180px;box-sizing:border-box;border:1px solid #d1d5db;border-top:4px solid #2563eb;border-radius:10px;padding:12px 14px;background:#f8fafc;color:#111827;'><div style='font-weight:700;font-size:1.05em;margin-bottom:4px;'>Top 3</div><div style='font-size:0.95em;line-height:1.4;'>The 1st, 2nd, and 3rd items at the top of your list</div></div><div style='flex:1 1 180px;box-sizing:border-box;border:1px solid #d1d5db;border-top:4px solid #2563eb;border-radius:10px;padding:12px 14px;background:#f8fafc;color:#111827;'><div style='font-weight:700;font-size:1.05em;margin-bottom:4px;'>Random 3</div><div style='font-size:0.95em;line-height:1.4;'>Three items picked at random from the rest of your list</div></div><div style='flex:1 1 180px;box-sizing:border-box;border:1px solid #d1d5db;border-top:4px solid #2563eb;border-radius:10px;padding:12px 14px;background:#f8fafc;color:#111827;'><div style='font-weight:700;font-size:1.05em;margin-bottom:4px;'>Bottom 3</div><div style='font-size:0.95em;line-height:1.4;'>The last three items at the bottom of your list</div></div></div><p><strong>Step 3.</strong> For each of these nine items, please tell us how sensitive <em>you personally</em> consider that activity to be, regardless of the score ADA gave it.</p>"
+        },
+        {
+          "type": "matrix",
+          "name": "A7_Q4",
+          "title": "How sensitive do you personally consider each of these activity items to be?",
+          "description": "Here 1 means “Not sensitive at all” and 5 means “Very sensitive.”",
+          "isRequired": true,
+          "isAllRowRequired": true,
+          "rowTitleWidth": "40%",
+          "alternateRows": true,
+          "verticalAlign": "middle",
+          "columns": [
+            {
+              "value": 1,
+              "text": "1 (Not sensitive at all)"
+            },
+            {
+              "value": 2,
+              "text": "2"
+            },
+            {
+              "value": 3,
+              "text": "3"
+            },
+            {
+              "value": 4,
+              "text": "4"
+            },
+            {
+              "value": 5,
+              "text": "5 (Very sensitive)"
+            }
+          ],
+          "rows": [
+            {
+              "value": "pos_1",
+              "text": "Item at position 1 (top of list)"
+            },
+            {
+              "value": "pos_2",
+              "text": "Item at position 2"
+            },
+            {
+              "value": "pos_3",
+              "text": "Item at position 3"
+            },
+            {
+              "value": "mid_1",
+              "text": "First random item"
+            },
+            {
+              "value": "mid_2",
+              "text": "Second random item"
+            },
+            {
+              "value": "mid_3",
+              "text": "Third random item"
+            },
+            {
+              "value": "third_last",
+              "text": "Third-from-last item"
+            },
+            {
+              "value": "second_last",
+              "text": "Second-from-last item"
+            },
+            {
+              "value": "last",
+              "text": "Last item (bottom of list)"
+            }
+          ]
+        },
+        {
+          "type": "html",
+          "name": "A7_T3",
+          "html": "<p>On a scale of 1 to 5, with 1 being “Strongly disagree” and 5 being “Strongly agree”, please express your level of agreement with each of the statements given below.</p>"
+        },
+        {
+          "type": "matrix",
+          "name": "A7_Q5",
+          "title": "System Quality (Data, Recommendations & Clarity)",
+          "isRequired": true,
+          "isAllRowRequired": true,
+          "rowTitleWidth": "45%",
+          "alternateRows": true,
+          "verticalAlign": "middle",
+          "columns": [
+            {
+              "value": 1,
+              "text": "1 (Strongly disagree)"
+            },
+            {
+              "value": 2,
+              "text": "2"
+            },
+            {
+              "value": 3,
+              "text": "3"
+            },
+            {
+              "value": 4,
+              "text": "4"
+            },
+            {
+              "value": 5,
+              "text": "5 (Strongly agree)"
+            }
+          ],
+          "rows": [
+            {
+              "value": "info_accurate",
+              "text": "The activity information shown in ADA regarding my activities felt accurate."
+            },
+            {
+              "value": "info_reliable",
+              "text": "The activity information shown in ADA regarding my activities felt reliable."
+            },
+            {
+              "value": "recs_accurate",
+              "text": "The recommendations (of sensitive items) provided by the extension (ADA) are accurate."
+            },
+            {
+              "value": "recs_reliable",
+              "text": "The recommendations (of sensitive items) provided by the extension (ADA) are reliable."
+            },
+            {
+              "value": "recs_match_my_idea",
+              "text": "The recommendations provided by the extension match my idea of how sensitive my browser interactions are."
+            },
+            {
+              "value": "understand_why_marked",
+              "text": "I understand why ADA marked certain entries as more sensitive than the others."
+            }
+          ]
+        },
+        {
+          "type": "matrix",
+          "name": "A7_Q6",
+          "title": "Ease of Use & Interaction Experience",
+          "isRequired": true,
+          "isAllRowRequired": true,
+          "rowTitleWidth": "45%",
+          "alternateRows": true,
+          "verticalAlign": "middle",
+          "columns": [
+            {
+              "value": 1,
+              "text": "1 (Strongly disagree)"
+            },
+            {
+              "value": 2,
+              "text": "2"
+            },
+            {
+              "value": 3,
+              "text": "3"
+            },
+            {
+              "value": 4,
+              "text": "4"
+            },
+            {
+              "value": 5,
+              "text": "5 (Strongly agree)"
+            }
+          ],
+          "rows": [
+            {
+              "value": "easy_navigate",
+              "text": "The extension is easy to navigate."
+            },
+            {
+              "value": "easy_interact",
+              "text": "The extension is easy to interact with."
+            },
+            {
+              "value": "scores_understandable",
+              "text": "The sensitivity scores provided by the extension are easy for me to understand."
+            },
+            {
+              "value": "order_understandable",
+              "text": "The order in which the recommendations are presented by the extension is easy for me to understand."
+            },
+            {
+              "value": "presentation_understandable",
+              "text": "The extension was overall presented in a way that was easy for me to understand."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "AC_8",
+          "title": "If you’re reading this question, enter the number that comes after three.",
+          "isRequired": true,
+          "inputType": "number",
+          "placeholder": "Enter a number"
+        },
+        {
+          "type": "matrix",
+          "name": "A7_Q7",
+          "title": "Perceived Usefulness",
+          "isRequired": true,
+          "isAllRowRequired": true,
+          "rowTitleWidth": "45%",
+          "alternateRows": true,
+          "verticalAlign": "middle",
+          "columns": [
+            {
+              "value": 1,
+              "text": "1 (Strongly disagree)"
+            },
+            {
+              "value": 2,
+              "text": "2"
+            },
+            {
+              "value": 3,
+              "text": "3"
+            },
+            {
+              "value": 4,
+              "text": "4"
+            },
+            {
+              "value": 5,
+              "text": "5 (Strongly agree)"
+            }
+          ],
+          "rows": [
+            {
+              "value": "understand_sensitivity_quickly",
+              "text": "ADA helped me understand the potential “sensitivity” of my data quickly."
+            },
+            {
+              "value": "noticed_new_things",
+              "text": "ADA helped me notice things about my Google activity that I was not aware of before."
+            },
+            {
+              "value": "manage_browsing_data",
+              "text": "Using this extension would help me better manage my browsing data."
+            },
+            {
+              "value": "remove_before_sent",
+              "text": "Using this extension would help me remove sensitive data before it is sent to Google."
+            },
+            {
+              "value": "open_to_daily_use",
+              "text": "I would be open to using this extension in my day-to-day life."
+            },
+            {
+              "value": "trust_predictions",
+              "text": "I trust the sensitivity predictions provided by the system."
+            },
+            {
+              "value": "percentages_help_delete",
+              "text": "The sensitivity percentages help me decide which activities to delete."
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "A7_Q8",
+          "title": "How did you feel while using ADA to view your activity data?",
+          "isRequired": true,
+          "colCount": 3,
+          "choices": [
+            "Very comfortable",
+            "Slightly comfortable",
+            "Neither comfortable nor uncomfortable",
+            "Slightly uncomfortable",
+            "Very uncomfortable"
+          ]
+        },
+        {
+          "type": "rating",
+          "name": "A7_Q9",
+          "title": "How privacy-preserving/protecting did you feel ADA was during its functioning?",
+          "isRequired": true,
+          "rateCount": 5,
+          "rateMin": 1,
+          "rateMax": 5,
+          "minRateDescription": "1 = Not at all privacy-preserving",
+          "maxRateDescription": "5 = Very privacy-preserving"
+        },
+        {
+          "type": "comment",
+          "name": "A7_Q10",
+          "title": "Can you please briefly (1–3 sentences) explain your answer choice for the previous question?",
+          "isRequired": false,
+          "maxLength": 600
+        },
+        {
+          "type": "matrix",
+          "name": "A7_Q11",
+          "title": "Please indicate your level of agreement with each of the following statements.",
+          "isRequired": true,
+          "isAllRowRequired": true,
+          "rowTitleWidth": "45%",
+          "alternateRows": true,
+          "verticalAlign": "middle",
+          "columns": [
+            {
+              "value": 1,
+              "text": "1 (Strongly disagree)"
+            },
+            {
+              "value": 2,
+              "text": "2"
+            },
+            {
+              "value": 3,
+              "text": "3"
+            },
+            {
+              "value": 4,
+              "text": "4"
+            },
+            {
+              "value": 5,
+              "text": "5 (Strongly agree)"
+            }
+          ],
+          "rows": [
+            {
+              "value": "easy_to_use",
+              "text": "ADA was easy to use."
+            },
+            {
+              "value": "confident_reviewing",
+              "text": "I feel confident using ADA to review my activity data."
+            },
+            {
+              "value": "mental_effort",
+              "text": "Using ADA for the first time required a lot of mental effort."
+            },
+            {
+              "value": "intend_to_keep_using",
+              "text": "I intend to keep using ADA over the next 7 days."
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "A8",
@@ -1464,76 +1881,6 @@
             "Rarely",
             "Never",
             "Not sure"
-          ]
-        },
-        {
-          "type": "matrix",
-          "name": "A8_Q1",
-          "title": "Please indicate how much you agree or disagree with each of the following statements.",
-          "isRequired": true,
-          "isAllRowRequired": true,
-          "rowTitleWidth": "80%",
-          "alternateRows": true,
-          "verticalAlign": "middle",
-          "columns": [
-            {
-              "value": "strongly_agree",
-              "text": "Strongly agree"
-            },
-            {
-              "value": "agree",
-              "text": "Agree"
-            },
-            {
-              "value": "somewhat_agree",
-              "text": "Somewhat agree"
-            },
-            {
-              "value": "neutral",
-              "text": "Neither agree nor disagree"
-            },
-            {
-              "value": "somewhat_disagree",
-              "text": "Somewhat disagree"
-            },
-            {
-              "value": "disagree",
-              "text": "Disagree"
-            },
-            {
-              "value": "strongly_disagree",
-              "text": "Strongly disagree"
-            }
-          ],
-          "rows": [
-            {
-              "value": "awareness_disclose",
-              "text": "Companies seeking information online should disclose the way the data are collected, processed, and used."
-            },
-            {
-              "value": "awareness_policy",
-              "text": "A good consumer online privacy policy should have a clear and conspicuous disclosure."
-            },
-            {
-              "value": "awareness_important",
-              "text": "It is very important to me that I am aware and knowledgeable about how my personal information will be used."
-            },
-            {
-              "value": "collection_bothers_ask",
-              "text": "It usually bothers me when online companies ask me for personal information."
-            },
-            {
-              "value": "collection_think_twice",
-              "text": "When online companies ask me for personal information, I sometimes think twice before providing it."
-            },
-            {
-              "value": "collection_bothers_many",
-              "text": "It bothers me to give personal information to so many online companies."
-            },
-            {
-              "value": "collection_too_much",
-              "text": "I’m concerned that online companies are collecting too much personal information about me."
-            }
           ]
         }
       ]
