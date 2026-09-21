@@ -140,14 +140,6 @@
               "text": "Google My Activity page"
             },
             {
-              "value": "activity_controls",
-              "text": "Activity Controls"
-            },
-            {
-              "value": "web_app_activity",
-              "text": "Web & App Activity"
-            },
-            {
               "value": "location_history",
               "text": "Location History"
             },
@@ -158,10 +150,6 @@
             {
               "value": "auto_delete",
               "text": "Auto-delete settings (3/18/36 months)"
-            },
-            {
-              "value": "takeout",
-              "text": "Google Takeout"
             },
             {
               "value": "privacy_checkup",
@@ -962,14 +950,7 @@
           "choices": ["Yes", "No", "I am not sure"]
         },
 
-        {
-          "type": "radiogroup",
-          "name": "A5_Q8",
-          "title": "Would you be comfortable with Google storing this activity data (from each of the scenarios discussed above) in your Google Account?",
-          "isRequired": true,
-          "colCount": 3,
-          "choices": ["Yes", "No", "I am not sure"]
-        },
+
         {
           "type": "matrix",
           "name": "A5_Q9",
@@ -1154,14 +1135,7 @@
           "colCount": 3,
           "choices": ["Yes", "No", "Maybe"]
         },
-        {
-          "type": "radiogroup",
-          "name": "A5_Q25",
-          "title": "Do you feel that tech companies, in general, tend to make it difficult for users to access, review, or manage their collected data?",
-          "isRequired": true,
-          "colCount": 3,
-          "choices": ["Yes", "No", "Maybe"]
-        },
+
         {
           "type": "radiogroup",
           "name": "AC_6",
@@ -1513,11 +1487,12 @@
             },
             {
               "value": "trust_predictions",
-              "text": "I trust the sensitivity predictions provided by the system."
+              "text": "I trust the personalized dashboard provided by the system."
+
             },
             {
               "value": "percentages_help_delete",
-              "text": "The sensitivity percentages help me decide which activities to delete."
+              "text": "The personalized dashboard helps me decide which activities to delete."
             }
           ]
         },
