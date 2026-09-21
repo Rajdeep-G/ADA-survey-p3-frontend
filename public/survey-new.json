@@ -6,7 +6,7 @@
   "showQuestionNumbers": "off",
   "widthMode": "responsive",
   "pages": [
-    {
+     {
       "name": "A1",
       "title": "Google Account and Service Usage",
       "elements": [
@@ -325,7 +325,7 @@
         {
           "type": "html",
           "name": "A2_intro_MyActivity",
-          "html": "<p>In the following section, we will ask you some general questions to learn more about your knowledge of the Google “My Activity” dashboard in general and your usage of this feature in particular.</p><p>The Google “My Activity” dashboard is a service provided by Google that allows users to view, manage, and delete the activity data collected from their use of various Google services (such as Search, YouTube, Maps, Chrome, and more). “My Activity” organizes your past activity in a timeline and gives you control over what data is stored in your Google Account.</p><ul> <li>You can access the Google “My Activity” dashboard by visiting <a href='https://myactivity.google.com/' target='_blank'>https://myactivity.google.com/</a> while signed into your Google Account.</li> <li>You can also find it by going to your Google Account → Data & Privacy → History settings → My Activity.</li><li>“My Activity” allows you to view activity by date, Google product, and category. You can also delete specific items, delete activity in bulk, or turn on auto-delete for future activity.</li></ul>You can learn more about the Google “My Activity” dashboard from the official help page: <a href='https://support.google.com/accounts/answer/7028918' target='_blank'>Click here</a>"
+          "html": "<p>In the following section, we will ask you some general questions to learn more about your knowledge of the Google “My Activity” dashboard. </p><p>The Google “My Activity” dashboard is a service provided by Google that allows users to view, manage, and delete the activity data collected from their use of various Google services (such as Search, YouTube, Maps, Chrome, and more). “My Activity” organizes your past activity in a timeline and gives you control over what data is stored in your Google Account.</p><ul> <li>You can access the Google “My Activity” dashboard by visiting <a href='https://myactivity.google.com/' target='_blank'>https://myactivity.google.com/</a> while signed into your Google Account.</li> <li>You can also find it by going to your Google Account → Data & Privacy → History settings → My Activity.</li><li>“My Activity” allows you to view activity by date, Google product, and category. You can also delete specific items, delete activity in bulk, or turn on auto-delete for future activity.</li></ul>You can learn more about the Google “My Activity” dashboard from the official help page: <a href='https://support.google.com/accounts/answer/7028918' target='_blank'>Click here</a>"
         },
         {
           "type": "matrix",
@@ -704,88 +704,8 @@
             }
           ]
         },
-        {
-          "type": "matrix",
-          "name": "A4_Q3",
-          "title": "How comfortable would you feel if Google collected and stored the following categories of activity data across its services?",
-          "isRequired": true,
-          "isAllRowRequired": true,
-          "rowTitleWidth": "60%",
-          "alternateRows": true,
-          "verticalAlign": "middle",
-          "columns": [
-            {
-              "value": "very_comfortable",
-              "text": "Very comfortable"
-            },
-            {
-              "value": "slightly_comfortable",
-              "text": "Slightly comfortable"
-            },
-            {
-              "value": "neutral",
-              "text": "Neither comfortable nor uncomfortable"
-            },
-            {
-              "value": "slightly_uncomfortable",
-              "text": "Slightly uncomfortable"
-            },
-            {
-              "value": "very_uncomfortable",
-              "text": "Very uncomfortable"
-            }
-          ],
-          "rows": [
-            {
-              "value": "search_queries",
-              "text": "Search queries typed or spoken"
-            },
-            {
-              "value": "chrome_sites",
-              "text": "Websites visited in Chrome"
-            },
-            {
-              "value": "youtube_history",
-              "text": "YouTube watch and search history"
-            },
-            {
-              "value": "date_time",
-              "text": "Date & Time of activity"
-            },
-            {
-              "value": "approx_location",
-              "text": "Approximate location at the time of activity"
-            },
-            {
-              "value": "device_used",
-              "text": "Device used (e.g., phone, laptop, tablet)"
-            },
-            {
-              "value": "app_activity",
-              "text": "App activity and usage details"
-            },
-            {
-              "value": "ad_interactions",
-              "text": "Interactions with ads (e.g., ads viewed or clicked)"
-            },
-            {
-              "value": "location_history",
-              "text": "Location history from each device"
-            },
-            {
-              "value": "autosignin_passwords",
-              "text": "Auto-sign-in and password management data"
-            }
-          ]
-        },
-        {
-          "type": "comment",
-          "name": "A4_Q4",
-          "title": "Can you please briefly (1–3 sentences) explain your answer for the categories where you selected “Slightly uncomfortable” or “Very uncomfortable” in the previous question? (Optional)",
-          "isRequired": false,
-          "maxLength": 600,
-          "visibleIf": "{A4_Q3.search_queries} = 'slightly_uncomfortable' or {A4_Q3.search_queries} = 'very_uncomfortable' or {A4_Q3.chrome_sites} = 'slightly_uncomfortable' or {A4_Q3.chrome_sites} = 'very_uncomfortable' or {A4_Q3.youtube_history} = 'slightly_uncomfortable' or {A4_Q3.youtube_history} = 'very_uncomfortable' or {A4_Q3.date_time} = 'slightly_uncomfortable' or {A4_Q3.date_time} = 'very_uncomfortable' or {A4_Q3.approx_location} = 'slightly_uncomfortable' or {A4_Q3.approx_location} = 'very_uncomfortable' or {A4_Q3.device_used} = 'slightly_uncomfortable' or {A4_Q3.device_used} = 'very_uncomfortable' or {A4_Q3.app_activity} = 'slightly_uncomfortable' or {A4_Q3.app_activity} = 'very_uncomfortable' or {A4_Q3.ad_interactions} = 'slightly_uncomfortable' or {A4_Q3.ad_interactions} = 'very_uncomfortable' or {A4_Q3.location_history} = 'slightly_uncomfortable' or {A4_Q3.location_history} = 'very_uncomfortable' or {A4_Q3.autosignin_passwords} = 'slightly_uncomfortable' or {A4_Q3.autosignin_passwords} = 'very_uncomfortable'"
-        },
+
+
         {
           "type": "radiogroup",
           "name": "AC_3",
@@ -839,28 +759,10 @@
           "max": 100,
           "step": 1
         },
-        {
-          "type": "checkbox",
-          "name": "A4_Q9",
-          "title": "What pieces of activity data do you think Google collects when you use your Google Account on multiple devices (e.g., phone, laptop, tablet)? (Select all that apply)",
-          "isRequired": true,
-          "colCount": 3,
-          "choices": [
-            "Syncing of browsing history across devices",
-            "Syncing of YouTube watch and search history",
-            "Syncing of app activity across devices",
-            "Device information and login details",
-            "Location history from each device",
-            "Auto-sign-in and password management data"
-          ],
-          "hasOther": true,
-          "otherText": "Other (please specify)",
-          "showNoneItem": true,
-          "noneText": "I don’t think Google collects cross-device data"
-        },
+        
         {
           "type": "radiogroup",
-          "name": "A4_Q10",
+          "name": "A4_Q9",
           "title": "Which of the following privacy approaches would you prefer for managing your Google activity data (e.g., searches, browsing history, app activity, YouTube history) in the future?",
           "isRequired": true,
           "colCount": 1,
@@ -875,7 +777,7 @@
         },
         {
           "type": "radiogroup",
-          "name": "A4_Q11",
+          "name": "A4_Q10",
           "title": "Do you believe that Google ensures the security of the activity data it stores?",
           "isRequired": true,
           "colCount": 3,
@@ -887,7 +789,7 @@
         },
         {
           "type": "rating",
-          "name": "A4_Q12",
+          "name": "A4_Q11",
           "title": "On a scale of 1 to 5, with 1 being the least and 5 being the most, how much do you trust Google not to misuse your activity data?",
           "isRequired": true,
           "rateCount": 5,
@@ -898,7 +800,7 @@
         },
         {
           "type": "radiogroup",
-          "name": "A4_Q13",
+          "name": "A4_Q12",
           "title": "Do you think that you can access your activity data collected by Google?",
           "isRequired": true,
           "colCount": 3,
@@ -924,15 +826,25 @@
           "name": "A5_T2",
           "html": "<div style='border:1px solid rgba(37,99,235,0.35); border-left:5px solid #2563eb; border-radius:10px; padding:12px 16px; background:rgba(37,99,235,0.06); box-sizing:border-box;'><div style='display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:10px 20px; margin-bottom:12px;'><div style='flex:1 1 320px; min-width:0;'><div style='font-size:12px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:#2563eb; margin-bottom:4px;'>Quick task before you continue</div><div style='line-height:1.4;'>Before continuing, please complete a few quick tasks on your Google “My Activity” dashboard to help you recall what’s stored in your account.</div></div><a href='https://myactivity.google.com' target='_blank' rel='noopener noreferrer' style='flex:0 0 auto; white-space:nowrap; display:inline-block; background:#2563eb; color:#ffffff; text-decoration:none; font-weight:600; padding:9px 16px; border-radius:8px;'>Open myactivity.google.com</a></div><div style='display:flex; flex-wrap:wrap; gap:12px 20px; border-top:1px solid rgba(37,99,235,0.25); padding-top:12px;'><div style='flex:1 1 220px; min-width:0; display:flex; gap:10px; align-items:flex-start;'><div style='flex:0 0 26px; width:26px; height:26px; border-radius:50%; background:#2563eb; color:#ffffff; font-weight:700; font-size:14px; display:flex; align-items:center; justify-content:center;'>1</div><div style='line-height:1.35;'><strong>Visit your dashboard</strong><br>Scroll through your recent activity.</div></div><div style='flex:1 1 220px; min-width:0; display:flex; gap:10px; align-items:flex-start;'><div style='flex:0 0 26px; width:26px; height:26px; border-radius:50%; background:#2563eb; color:#ffffff; font-weight:700; font-size:14px; display:flex; align-items:center; justify-content:center;'>2</div><div style='line-height:1.35;'><strong>Filter by category</strong><br>Use “Filter by date &amp; product” to check at least 3 different Google products.</div></div><div style='flex:1 1 220px; min-width:0; display:flex; gap:10px; align-items:flex-start;'><div style='flex:0 0 26px; width:26px; height:26px; border-radius:50%; background:#2563eb; color:#ffffff; font-weight:700; font-size:14px; display:flex; align-items:center; justify-content:center;'>3</div><div style='line-height:1.35;'><strong>Filter by time</strong><br>View activity for Today, Yesterday, and Last 30 days.</div></div></div></div>"
         },
-        {
-          "type": "checkbox",
-          "name": "A5_Q1",
-          "title": "Have you done the above tasks?",
+                {
+          "type": "radiogroup",
+          "name": "A5_Q0",
+          "title": "Did you face any difficulties or problems while performing the above tasks through your Google “My Activity” dashboard?",
           "isRequired": true,
-          "requiredErrorText": "Please complete the tasks above on your Google “My Activity” dashboard, then tick the box to continue.",
+          "colCount": 3,
           "choices": [
-            "Yes, I have completed the tasks above."
+            "Yes",
+            "No",
+            "Maybe"
           ]
+        },
+        {
+          "type": "comment",
+          "name": "A5_Q1",
+          "title": "If Yes, please specify:",
+          "isRequired": false,
+          "maxLength": 600,
+          "visibleIf": "{A5_Q0} = 'Yes'"
         },
         {
           "type": "matrix",
@@ -1470,7 +1382,7 @@
         {
           "type": "html",
           "name": "A6_T2",
-          "html": "<p>Now that you have successfully installed the <b>ADA (Adaptive Data Dashboard)</b> extension, we request you to take a few minutes to explore it. The purpose is simply to help you get familiar with how ADA works.</p><div style='font-weight:700; font-size:17px; margin:24px 0 10px 0;'>As you explore ADA, you may want to try the following:</div><div style='display:flex; flex-wrap:wrap; gap:14px; align-items:stretch; margin:8px 0;'><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>🧩</div><div style='font-size:15px; color:#444;'>Open the <b>ADA extension</b> from the Chrome toolbar to view your recent activity entries.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>⏳</div><div style='font-size:15px; color:#444;'><b>Wait for the activity to load</b> — ADA scans and organizes your entries directly from the Google “My Activity” page.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>📊</div><div style='font-size:15px; color:#444;'>Notice the <b>sensitivity scores</b> displayed next to each activity (higher scores indicate potentially more personal or sensitive data).</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>🖱️</div><div style='font-size:15px; color:#444;'><b>Try at least one feature</b> such as filtering, sorting, viewing details, or navigating through activity items.</div></div></div><div style='background:#fff8e6; border-left:5px solid #f0ad4e; border-radius:8px; padding:14px 18px; margin:24px 0 8px 0;'><div style='font-weight:700; font-size:17px; margin-bottom:6px;'>✅ When you feel familiar with ADA</div><p style='margin:0 0 10px 0;'>Once you feel familiar with the interface, press the button inside the <b>ADA dashboard</b> that generates a unique <b>6-digit code</b>.</p><div style='text-align:center; margin:12px 0;'><img src='/p2.png' style='max-width:100%; border:1px solid #e3e3e3; border-radius:6px;' /></div><p style='margin:0;'><b>Copy and paste that code below.</b> After submitting the code, you will continue to the <b>First-Use Experience</b> section.</p></div>"
+          "html": "<p>Now that you have successfully installed the <b>ADA (Adaptive Data Dashboard)</b> extension, we request you to take a few minutes to explore it. The purpose is simply to help you get familiar with how ADA works.</p><div style='font-weight:700; font-size:17px; margin:24px 0 10px 0;'>As you explore ADA, you may want to try the following:</div><div style='display:flex; flex-wrap:wrap; gap:14px; align-items:stretch; margin:8px 0;'><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>🧩</div><div style='font-size:15px; color:#444;'>Open the <b>ADA extension</b> from the Chrome toolbar to view your recent activity entries.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>⏳</div><div style='font-size:15px; color:#444;'><b>Wait for the activity to load</b> — ADA scans and organizes your entries directly from the Google “My Activity” page.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>📊</div><div style='font-size:15px; color:#444;'>If you'd like your dashboard to feel more personalised, you can share your feedback for each activity and ADA will adapt to your preferences.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:16px;'><div style='font-size:30px; line-height:1; margin-bottom:8px;'>🖱️</div><div style='font-size:15px; color:#444;'><b>Try at least one feature</b> such as filtering, sorting by date, or navigating through activity items.</div></div></div><div style='background:#fff8e6; border-left:5px solid #f0ad4e; border-radius:8px; padding:14px 18px; margin:24px 0 8px 0;'><div style='font-weight:700; font-size:17px; margin-bottom:6px;'>✅ When you feel familiar with ADA</div><div style='text-align:center; margin:12px 0;'><img src='/p2.png' style='max-width:100%; border:1px solid #e3e3e3; border-radius:6px;' /></div><p style='margin:0;'><b>Copy and paste the 6-digit code below.</b> After submitting the code, you will continue to the <b>First-Use Experience</b> section.</p></div>"
         },
         {
           "type": "text",

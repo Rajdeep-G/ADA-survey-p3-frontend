@@ -10,23 +10,23 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 5173,
-    // proxy: {
-    //   '/survey/check':       'http://localhost:8000',
-    //   '/survey/start':       'http://localhost:8000',
-    //   '/survey/progress':    'http://localhost:8000',
-    //   '/survey/verify-code': 'http://localhost:8000',
-    //   '/survey/submit':      'http://localhost:8000',
-    //   '/healthz':            'http://localhost:8000',
-    // }
-
     proxy: {
-      '/survey/check': api,
-      '/survey/start': api,
-      '/survey/progress': api,
-      '/survey/verify-code': api,
-      '/survey/submit': api,
-      '/healthz': api,
-    },
+      '/survey/check':       'http://localhost:8000',
+      '/survey/start':       'http://localhost:8000',
+      '/survey/progress':    'http://localhost:8000',
+      '/survey/verify-code': 'http://localhost:8000',
+      '/survey/submit':      'http://localhost:8000',
+      '/healthz':            'http://localhost:8000',
+    }
+
+    // proxy: {
+    //   '/survey/check': api,
+    //   '/survey/start': api,
+    //   '/survey/progress': api,
+    //   '/survey/verify-code': api,
+    //   '/survey/submit': api,
+    //   '/healthz': api,
+    // },
   }
 })
 

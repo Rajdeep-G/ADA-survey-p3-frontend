@@ -77,7 +77,7 @@ export default function Landing() {
             To better facilitate this understanding, we built ADA (Adaptive data
             DAshboard): a data dashboard for auditing your online activity. ADA
             organizes your Google Activity data (You may explore the
-            dashboard&nbsp;
+            Google activity dashboard&nbsp;
             <a
               href="https://myactivity.google.com/"
               target="_blank"
@@ -85,7 +85,7 @@ export default function Landing() {
             >
               here
             </a>
-            )and supports you in visualising the collected data, helping you
+            ). ADA supports you in visualising the collected data, helping you
             audit your online activity and taking control of your privacy. To
             preserve your privacy, ADA works locally, i.e., your data never
             leaves your browser.
