@@ -131,7 +131,7 @@
             },
             {
               "value": "currently_use",
-              "text": "Currently use it"
+              "text": "Currently using it"
             }
           ],
           "rows": [
@@ -696,9 +696,7 @@
           "name": "A4_Q5",
           "title": "In the last week, about how many searches do you think you made on Google?",
           "isRequired": true,
-          "inputType": "number",
-          "min": 0,
-          "step": 1,
+          "inputType": "text",
           "placeholder": "Enter a number"
         },
         {
@@ -706,9 +704,7 @@
           "name": "A4_Q6",
           "title": "In the last week, about how many YouTube videos do you think you watched?",
           "isRequired": true,
-          "inputType": "number",
-          "min": 0,
-          "step": 1,
+          "inputType": "text",
           "placeholder": "Enter a number"
         },
         {
@@ -716,9 +712,7 @@
           "name": "A4_Q7",
           "title": "In the last week, about how many separate items do you think were added to your Google activity dashboard?",
           "isRequired": true,
-          "inputType": "number",
-          "min": 0,
-          "step": 1,
+          "inputType": "text",
           "placeholder": "Enter a number"
         },
         {
@@ -803,7 +797,6 @@
           "name": "A5_Q1",
           "title": "If Yes, please specify:",
           "isRequired": false,
-          "maxLength": 600,
           "visibleIf": "{A5_Q0} = 'Yes'"
         },
         {
@@ -880,24 +873,18 @@
           "colCount": 3,
           "choices": ["Yes", "No", "I am not sure"]
         },
-        {
-          "type": "comment",
-          "name": "A5_Q4",
-          "title": "Can you please briefly (1–3 sentences) explain your answer choice for the previous question?",
-          "isRequired": false,
-          "maxLength": 600
-        },
+
         {
           "type": "radiogroup",
           "name": "AC_4",
-          "title": "If all Android users use Google Play Store, and Sam uses Google Play Store, what can you conclude?",
+          "title": "How many days are in the month of January?",
           "isRequired": true,
           "colCount": 2,
           "choices": [
-            "Sam is definitely an Android user",
-            "Sam is definitely not an Android user",
-            "Sam may or may not be an Android user",
-            "I am not sure"
+            "28 days",
+            "29 days",
+            "30 days",
+            "31 days"
           ]
         },
         {
@@ -974,13 +961,7 @@
           "colCount": 3,
           "choices": ["Yes", "No", "I am not sure"]
         },
-        {
-          "type": "comment",
-          "name": "A5_Q7",
-          "title": "Can you please briefly (1–3 sentences) explain your answer choice for the previous question?",
-          "isRequired": false,
-          "maxLength": 600
-        },
+
         {
           "type": "radiogroup",
           "name": "A5_Q8",
@@ -1064,41 +1045,8 @@
             }
           ]
         },
-        {
-          "type": "comment",
-          "name": "A5_Q10",
-          "title": "Can you please briefly (1–3 sentences) explain your answer choices for the cases that you rated as unacceptable (1 or 2) in the previous question?",
-          "isRequired": false,
-          "maxLength": 600,
-          "visibleIf": "{A5_Q9.explicit_consent} = 1 or {A5_Q9.explicit_consent} = 2 or {A5_Q9.no_notification} = 1 or {A5_Q9.no_notification} = 2 or {A5_Q9.explicit_notification} = 1 or {A5_Q9.explicit_notification} = 2 or {A5_Q9.anonymized} = 1 or {A5_Q9.anonymized} = 2 or {A5_Q9.financial_rewards} = 1 or {A5_Q9.financial_rewards} = 2 or {A5_Q9.improve_performance} = 1 or {A5_Q9.improve_performance} = 2 or {A5_Q9.personalized_features} = 1 or {A5_Q9.personalized_features} = 2 or {A5_Q9.dashboard_features} = 1 or {A5_Q9.dashboard_features} = 2 or {A5_Q9.stored_indefinitely} = 1 or {A5_Q9.stored_indefinitely} = 2 or {A5_Q9.not_stored_indefinitely} = 1 or {A5_Q9.not_stored_indefinitely} = 2"
-        },
-        {
-          "type": "checkbox",
-          "name": "A5_Q11",
-          "title": "After exploring your Google activity dashboard, which product categories did you check out? (Select all that apply)",
-          "isRequired": true,
-          "colCount": 4,
-          "choices": [
-            "Ads",
-            "Android",
-            "Assistant",
-            "Chrome",
-            "Discover",
-            "Drive",
-            "Gmail",
-            "Google Play",
-            "Image Search",
-            "Location History",
-            "Maps",
-            "News",
-            "Search",
-            "Shopping",
-            "Voice & Audio",
-            "YouTube"
-          ],
-          "hasOther": true,
-          "otherText": "Other (please specify)"
-        },
+        
+        
         {
           "type": "radiogroup",
           "name": "A5_Q12",
@@ -1110,16 +1058,16 @@
         {
           "type": "comment",
           "name": "A5_Q13",
-          "title": "Can you please briefly (1–3 sentences) explain your answer choice for the previous question?",
-          "isRequired": false,
-          "maxLength": 600
+          "title": "Can you please briefly (1 sentence) explain your answer choice for the previous question?",
+          "isRequired": true
+          
         },
         {
           "type": "text",
           "name": "AC_5",
           "title": "Add 2 with 4. Now multiply the result by 2. Enter the correct answer.",
           "isRequired": true,
-          "inputType": "number",
+          "inputType": "text",
           "placeholder": "Enter a number"
         },
         {
@@ -1136,13 +1084,7 @@
             "Very uncomfortable"
           ]
         },
-        {
-          "type": "comment",
-          "name": "A5_Q15",
-          "title": "Can you please briefly (1–3 sentences) explain your answer choice for the previous question?",
-          "isRequired": false,
-          "maxLength": 600
-        },
+        
         {
           "type": "radiogroup",
           "name": "A5_Q16",
@@ -1170,7 +1112,6 @@
           "name": "A5_Q18",
           "title": "If Yes, please specify:",
           "isRequired": false,
-          "maxLength": 600,
           "visibleIf": "{A5_Q17} = 'Yes'"
         },
         {
@@ -1196,13 +1137,6 @@
           "isRequired": true,
           "colCount": 3,
           "choices": ["Yes", "No", "Maybe"]
-        },
-        {
-          "type": "comment",
-          "name": "A5_Q22",
-          "title": "Can you please briefly (1–3 sentences) explain your answer choice for the previous question?",
-          "isRequired": false,
-          "maxLength": 600
         },
         {
           "type": "radiogroup",
@@ -1317,22 +1251,19 @@
           "type": "comment",
           "name": "A7_Q1",
           "title": "How would you describe your immediate reaction to ADA?",
-          "isRequired": true,
-          "maxLength": 600
+          "isRequired": true
         },
         {
           "type": "comment",
           "name": "A7_Q2",
           "title": "What do you think is the purpose of this browser extension, ADA?",
-          "isRequired": true,
-          "maxLength": 600
+          "isRequired": true
         },
         {
           "type": "comment",
           "name": "A7_Q3",
           "title": "What task do you think you could accomplish using this browser extension, ADA?",
-          "isRequired": true,
-          "maxLength": 600
+          "isRequired": true
         },
         {
           "type": "html",
@@ -1386,15 +1317,15 @@
             },
             {
               "value": "mid_1",
-              "text": "First random item"
+              "text": "First random item (1 of 3 random items)"
             },
             {
               "value": "mid_2",
-              "text": "Second random item"
+              "text": "Second random item (2 of 3 random items)"
             },
             {
               "value": "mid_3",
-              "text": "Third random item"
+              "text": "Third random item (3 of 3 random items)"
             },
             {
               "value": "third_last",
@@ -1525,7 +1456,7 @@
           "name": "AC_8",
           "title": "If you’re reading this question, enter the number that comes after three.",
           "isRequired": true,
-          "inputType": "number",
+          "inputType": "text",
           "placeholder": "Enter a number"
         },
         {
@@ -1619,8 +1550,7 @@
           "type": "comment",
           "name": "A7_Q10",
           "title": "Can you please briefly (1–3 sentences) explain your answer choice for the previous question?",
-          "isRequired": false,
-          "maxLength": 600
+          "isRequired": true
         },
         {
           "type": "matrix",
