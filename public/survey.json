@@ -875,72 +875,7 @@
             "31 days"
           ]
         },
-        {
-          "type": "matrix",
-          "name": "A5_Q5",
-          "title": "How comfortable would you feel if Google stored the detailed content of your activity (e.g., exact search queries, viewed links, watched videos) from each of the above scenarios?",
-          "isRequired": true,
-          "isAllRowRequired": true,
-          "rowTitleWidth": "40%",
-          "alternateRows": true,
-          "verticalAlign": "middle",
-          "columns": [
-            {
-              "value": "very_comfortable",
-              "text": "Very comfortable"
-            },
-            {
-              "value": "slightly_comfortable",
-              "text": "Slightly comfortable"
-            },
-            {
-              "value": "neutral",
-              "text": "Neither comfortable nor uncomfortable"
-            },
-            {
-              "value": "slightly_uncomfortable",
-              "text": "Slightly uncomfortable"
-            },
-            {
-              "value": "very_uncomfortable",
-              "text": "Very uncomfortable"
-            }
-          ],
-          "rows": [
-            {
-              "value": "casual",
-              "text": "Casual or non-personal browsing/search activity"
-            },
-            {
-              "value": "sensitive",
-              "text": "Searches or activity related to personal or sensitive topics (e.g., health, finances, relationships)"
-            },
-            {
-              "value": "embarrassing",
-              "text": "Activity related to content that could be embarrassing or private"
-            },
-            {
-              "value": "someone_nearby",
-              "text": "Activity performed while someone else was present nearby"
-            },
-            {
-              "value": "other_person_device",
-              "text": "Activity performed by another person using a device where you were logged into your Google Account"
-            },
-            {
-              "value": "background_talking",
-              "text": "Activity performed in environments with other people talking in the background"
-            },
-            {
-              "value": "shared_public_device",
-              "text": "Activity logged on a shared or public device (e.g., school, office, café, library computer)"
-            },
-            {
-              "value": "accidental",
-              "text": "Activity logged accidentally or unintentionally (e.g., mis-clicks, accidental searches, auto-suggestions clicked by mistake)"
-            }
-          ]
-        },
+        
         {
           "type": "radiogroup",
           "name": "A5_Q6",
