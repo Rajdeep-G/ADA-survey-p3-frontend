@@ -21,7 +21,7 @@
           "name": "A1_Q1",
           "title": "Which of the following Google services do you use regularly? (Select all that apply)",
           "isRequired": true,
-          "colCount": 5,
+          "colCount": 4,
           "choices": [
             "Google Search",
             "YouTube",
@@ -784,7 +784,7 @@
           "name": "AC_4",
           "title": "How many days are in the month of January?",
           "isRequired": true,
-          "colCount": 2,
+          "colCount": 4,
           "choices": ["28 days", "29 days", "30 days", "31 days"]
         },
 
@@ -1039,11 +1039,7 @@
           "name": "A6_T1_1",
           "html": "<p>Now that you have successfully installed the <b>ADA (Adaptive Data Dashboard)</b> extension, we request you to take a few minutes to explore it. The purpose is simply to help you get familiar with how ADA works.</p><div style='background:#eef7ff; border-left:5px solid #2f80c7; border-radius:8px; padding:14px 18px; margin:18px 0;'><div style='font-weight:700; font-size:17px; margin-bottom:10px;'>How you can explore ADA ?</div><div style='display:flex; gap:12px; align-items:flex-start; margin-bottom:10px;'><div style='flex:0 0 26px; width:26px; height:26px; border-radius:50%; background:#2f80c7; color:#fff; font-weight:700; font-size:13px; display:flex; align-items:center; justify-content:center;'>1</div><div style='font-size:15px;'>On the landing page <b>introduction page</b> — read the instructions carefully (it explains what ADA does and how it works)</div></div><div style='display:flex; gap:12px; align-items:flex-start;'><div style='flex:0 0 26px; width:26px; height:26px; border-radius:50%; background:#2f80c7; color:#fff; font-weight:700; font-size:13px; display:flex; align-items:center; justify-content:center;'>2</div><div style='font-size:15px;'>Click the button on that page to <b>generate your personalised dashboard</b>.</div></div></div>"
         },
-        {
-          "type": "html",
-          "name": "A6_T2",
-          "html": "<div style='font-weight:700; font-size:17px; margin:24px 0 10px 0;'>As you explore ADA, you may want to try the following:</div><div style='display:flex; flex-wrap:wrap; gap:14px; align-items:stretch; margin:8px 0;'><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; display:flex; gap:12px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:14px 16px;'><div style='flex:0 0 auto; font-size:26px; line-height:1;'>🧩</div><div style='font-size:15px; color:#444;'>Open the ADA extension from the Chrome toolbar to view your recent activity entries.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; display:flex; gap:12px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:14px 16px;'><div style='flex:0 0 auto; font-size:26px; line-height:1;'>⏳</div><div style='font-size:15px; color:#444;'>Wait for the activity to load; ADA scans and organizes your entries directly from the Google “My Activity” page.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; display:flex; gap:12px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:14px 16px;'><div style='flex:0 0 auto; font-size:26px; line-height:1;'>📊</div><div style='font-size:15px; color:#444;'>If you'd like your dashboard to feel more personalised, you can share your feedback for each activity and ADA will adapt to your preferences.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; display:flex; gap:12px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:14px 16px;'><div style='flex:0 0 auto; font-size:26px; line-height:1;'>🖱️</div><div style='font-size:15px; color:#444;'>Try at least one feature such as filtering, sorting by date, or navigating through activity items.</div></div></div>"
-        },
+
         {
           "type": "radiogroup",
           "name": "A6_Q1_extra",
@@ -1053,10 +1049,18 @@
           "choices": ["Yes", "No"]
         },
 
+
+        {
+          "type": "html",
+          "name": "A6_T2",
+          "html": "<div style='font-weight:700; font-size:17px; margin:24px 0 10px 0;'>As you explore ADA, you may want to try the following:</div><div style='display:flex; flex-wrap:wrap; gap:14px; align-items:stretch; margin:8px 0;'><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; display:flex; gap:12px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:14px 16px;'><div style='flex:0 0 auto; font-size:26px; line-height:1;'>🧩</div><div style='font-size:15px; color:#444;'>Open the ADA extension from the Chrome toolbar to view your recent activity entries.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; display:flex; gap:12px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:14px 16px;'><div style='flex:0 0 auto; font-size:26px; line-height:1;'>⏳</div><div style='font-size:15px; color:#444;'>Wait for the activity to load; ADA scans and organizes your entries directly from the Google “My Activity” page.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; display:flex; gap:12px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:14px 16px;'><div style='flex:0 0 auto; font-size:26px; line-height:1;'>📊</div><div style='font-size:15px; color:#444;'>If you'd like your dashboard to feel more personalised, you can share your feedback for each activity and ADA will adapt to your preferences.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; display:flex; gap:12px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:14px 16px;'><div style='flex:0 0 auto; font-size:26px; line-height:1;'>🖱️</div><div style='font-size:15px; color:#444;'>Try at least one feature such as filtering, sorting by date, or navigating through activity items.</div></div></div>"
+        },
+        
+
         {
           "type": "html",
           "name": "A6_T3",
-          "html": "<div style='background:#fff8e6; border-left:5px solid #f0ad4e; border-radius:8px; padding:14px 18px; margin:24px 0 8px 0;'><div style='font-weight:700; font-size:17px; margin-bottom:6px;'>When you feel familiar with ADA</div><div style='text-align:center; margin:12px 0;'><img src='/p2.png' style='max-width:100%; border:1px solid #e3e3e3; border-radius:6px;' /></div><p style='margin:0;'><b>Copy and paste the 6-digit code below.</b> After submitting the code, you will continue to the <b>First-Use Experience</b> section.</p></div>"
+          "html": "<div style='background:#fff8e6; border-left:5px solid #f0ad4e; border-radius:8px; padding:14px 18px; margin:24px 0 8px 0;'><div style='font-weight:700; font-size:17px; margin-bottom:6px;'>When you feel familiar with ADA</div><div style='text-align:center; margin:12px 0;'><img src='/p2.png' style='max-width:100%; border:1px solid #e3e3e3; border-radius:6px;' /></div><p style='margin:0;'><b>Copy the 6-digit code from the extension tab (see top right) and paste it below.</b> After submitting the code, you will continue to the <b>First-Use Experience</b> section.</p></div>"
         },
         {
           "type": "text",
