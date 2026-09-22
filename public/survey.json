@@ -15,6 +15,7 @@
           "name": "A1_T1",
           "html": "<p>In this section, we'd like to understand which Google services you use and how you typically access your Google Account across different devices. There are no right or wrong answers — we're simply interested in your everyday habits.</p>"
         },
+
         {
           "type": "checkbox",
           "name": "A1_Q1",
@@ -23,46 +24,15 @@
           "colCount": 5,
           "choices": [
             "Google Search",
-            "Gmail",
             "YouTube",
+            "Gmail",
             "Google Maps",
-            "Google Drive",
+            "Google Drive (Docs/Sheets/Slides)",
             "Google Photos",
-            "Google Calendar",
-            "Google Docs",
-            "Google Sheets",
-            "Google Slides",
-            "Google Forms",
-            "Google Meet",
-            "Google Chat",
-            "Google Keep",
-            "Google Chrome (as a browser)",
-            "Chrome Web Store",
-            "Google Play Store",
-            "Google Play Services",
-            "Google Play Movies / Google TV",
-            "Google Play Games",
+            "Chrome browser (signed-in)",
             "Google Assistant",
-            "Google Home / Nest Devices",
-            "Google Fit",
-            "Google Pay",
-            "Google Wallet",
-            "Google News",
-            "Google Classroom",
-            "Google Translate",
-            "Google Lens",
-            "Google Podcasts",
-            "Google Earth",
-            "Google Street View",
-            "Google Books",
-            "Google Shopping",
-            "Google Flights",
-            "Google Finance",
-            "Google One (cloud subscription)",
-            "Google My Activity Dashboard",
-            "Google Account Settings / Privacy & Personalization Page",
-            "Google Ads (viewing/personalization settings)",
-            "Blogger"
+            "Google Calendar",
+            "Google Play Store"
           ],
           "hasOther": true,
           "otherText": "Other (please specify)"
@@ -186,6 +156,14 @@
           ]
         },
         {
+          "type": "radiogroup",
+          "name": "AC_1",
+          "title": "What is the shape of a red ball?",
+          "isRequired": true,
+          "colCount": 4,
+          "choices": ["Red", "Round", "Blue", "Square"]
+        },
+        {
           "type": "html",
           "name": "A1_T3",
           "html": "<p>You may use your primary Google Account across different devices. Please tell us how long you have been using this account on the following devices:</p>"
@@ -220,67 +198,6 @@
             "Around 3 years",
             "More than 3 years"
           ]
-        },
-        {
-          "type": "checkbox",
-          "name": "A1_Q9",
-          "title": "Which of the following Google services do you use most frequently? (Select all that apply)",
-          "isRequired": true,
-          "colCount": 4,
-          "choices": [
-            "Google Search",
-            "YouTube",
-            "Gmail",
-            "Google Maps",
-            "Google Drive (Docs/Sheets/Slides)",
-            "Google Photos",
-            "Chrome browser (signed-in)",
-            "Google Assistant",
-            "Google Calendar",
-            "Google Play Store"
-          ],
-          "hasOther": true,
-          "otherText": "Other (please specify)"
-        },
-        {
-          "type": "radiogroup",
-          "name": "AC_1",
-          "title": "What is the shape of a red ball?",
-          "isRequired": true,
-          "colCount": 4,
-          "choices": ["Red", "Round", "Blue", "Square"]
-        },
-        {
-          "type": "radiogroup",
-          "name": "A1_Q10",
-          "title": "From where do you mostly use these Google services?",
-          "isRequired": true,
-          "colCount": 3,
-          "choices": ["Smartphone (Android)", "Laptop/Desktop", "I am not sure"]
-        },
-        {
-          "type": "radiogroup",
-          "name": "A1_Q11",
-          "title": "Do you ever use “Sign in with Google” to log into third-party applications and websites?",
-          "isRequired": true,
-          "colCount": 3,
-          "choices": ["Yes", "No", "I am not sure"]
-        },
-        {
-          "type": "radiogroup",
-          "name": "A1_Q12",
-          "title": "Before allowing a website or app to connect to your Google Account using “Sign in with Google”, how often do you review the permissions requested (e.g., access to profile, email, contacts, Drive files)?",
-          "isRequired": true,
-          "colCount": 4,
-          "choices": ["Always", "Sometimes", "Never", "I am not sure"]
-        },
-        {
-          "type": "radiogroup",
-          "name": "A1_Q13",
-          "title": "Have you ever refused to use “Sign in with Google” for an app or service, even though it was convenient, due to privacy concerns?",
-          "isRequired": true,
-          "colCount": 3,
-          "choices": ["Yes", "No", "I am not sure"]
         }
       ]
     },
