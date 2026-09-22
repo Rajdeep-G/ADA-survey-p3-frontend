@@ -1517,7 +1517,7 @@
         {
           "type": "html",
           "name": "A8_T1",
-          "html": "<p><strong>1.8 IUIPC Awareness and Collection Subscales</strong></p>"
+          "html": "<p>This section moves away from Google specifically and asks about your general views on how companies handle personal information online. There are no right or wrong answers — just tell us how much you agree or disagree with each statement below.</p>"
         },
         {
           "type": "radiogroup",
