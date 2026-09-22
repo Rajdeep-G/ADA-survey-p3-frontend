@@ -1390,7 +1390,7 @@
         {
           "type": "comment",
           "name": "A7_Q10",
-          "title": "Can you please briefly (1–3 sentences) explain your answer choice for the previous question?",
+          "title": "Can you please briefly (1 sentence) explain your answer choice for the previous question?",
           "isRequired": true
         },
         {
