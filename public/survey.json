@@ -106,31 +106,31 @@
           ],
           "rows": [
             {
-              "value": "my_activity",
+              "value": "A1_Q5_1_my_activity",
               "text": "Google My Activity page"
             },
             {
-              "value": "location_history",
+              "value": "A1_Q5_2_location_history",
               "text": "Location History"
             },
             {
-              "value": "youtube_history",
+              "value": "A1_Q5_3_youtube_history",
               "text": "YouTube History"
             },
             {
-              "value": "auto_delete",
+              "value": "A1_Q5_4_auto_delete",
               "text": "Auto-delete settings (3/18/36 months)"
             },
             {
-              "value": "privacy_checkup",
+              "value": "A1_Q5_5_privacy_checkup",
               "text": "Privacy Checkup"
             },
             {
-              "value": "ad_center",
+              "value": "A1_Q5_6_ad_center",
               "text": "My Ad Center / Ad Settings"
             },
             {
-              "value": "incognito",
+              "value": "A1_Q5_7_incognito",
               "text": "Incognito mode"
             }
           ]
@@ -158,7 +158,7 @@
         {
           "type": "radiogroup",
           "name": "AC_1",
-          "title": "What is the shape of a red ball?",
+          "title": "What is the shape of a red cricket ball?",
           "isRequired": true,
           "colCount": 4,
           "choices": ["Red", "Round", "Blue", "Square"]
@@ -234,23 +234,23 @@
           ],
           "rows": [
             {
-              "value": "opened_my_activity",
+              "value": "A2_Q1_1_opened_my_activity",
               "text": "Have you ever opened your Google My Activity page?"
             },
             {
-              "value": "deleted_items",
+              "value": "A2_Q1_2_deleted_items",
               "text": "Have you ever deleted individual items from your Google activity?"
             },
             {
-              "value": "paused_activity_control",
+              "value": "A2_Q1_3_paused_activity_control",
               "text": "Have you ever turned off or paused any Activity Control?"
             },
             {
-              "value": "set_auto_delete",
+              "value": "A2_Q1_4_set_auto_delete",
               "text": "Have you ever set an activity to auto-delete after a fixed period?"
             },
             {
-              "value": "explored_data_privacy",
+              "value": "A2_Q1_5_explored_data_privacy",
               "text": "Have you ever explored the “Data & Privacy” section of your Google Account where “My Activity” settings are located?"
             }
           ]
@@ -270,19 +270,7 @@
             "More than 3 years"
           ]
         },
-        {
-          "type": "radiogroup",
-          "name": "AC_2",
-          "title": "This study focuses on users’ interactions with?",
-          "isRequired": true,
-          "colCount": 4,
-          "choices": [
-            "Food delivery apps",
-            "Twitter survey",
-            "Google “My Activity” dashboard",
-            "IIT KGP"
-          ]
-        },
+
         {
           "type": "radiogroup",
           "name": "A2_Q3",
@@ -301,7 +289,7 @@
         },
         {
           "type": "checkbox",
-          "name": "A2_Q4",
+          "name": "A2_Q3_B1",
           "title": "What qualities of the Google “My Activity” dashboard encourage you to use it regularly? (Select all that apply)",
           "isRequired": true,
           "visibleIf": "{A2_Q3} = 'Multiple times a week' or {A2_Q3} = 'Once a week' or {A2_Q3} = 'A couple of times per month'",
@@ -318,7 +306,7 @@
         },
         {
           "type": "checkbox",
-          "name": "A2_Q5",
+          "name": "A2_Q3_B2",
           "title": "What qualities discourage you from using the Google “My Activity” dashboard regularly? (Select all that apply)",
           "isRequired": true,
           "visibleIf": "{A2_Q3} = 'Once a month' or {A2_Q3} = 'A couple of times per year' or {A2_Q3} = 'Less than once per year' or {A2_Q3} = 'Never'",
@@ -336,7 +324,7 @@
         },
         {
           "type": "radiogroup",
-          "name": "A2_Q6",
+          "name": "A2_Q4",
           "title": "To the best of your memory, how often do you notice that a Google service has used your past activity to personalize what you see?",
           "isRequired": true,
           "colCount": 3,
@@ -351,7 +339,7 @@
         },
         {
           "type": "radiogroup",
-          "name": "A2_Q7",
+          "name": "A2_Q5",
           "title": "To the best of your memory, how many times in the last year have you changed a privacy or activity setting on your Google account?",
           "isRequired": true,
           "colCount": 3,
@@ -365,8 +353,21 @@
           ]
         },
         {
+          "type": "radiogroup",
+          "name": "AC_2",
+          "title": " Select “Often” only if you read the instructions carefully. Otherwise select “Never”. How often do you eat chicken for breakfast?",
+          "isRequired": true,
+          "colCount": 4,
+          "choices": [
+            "Often",
+            "Rarely",
+            "Never",
+            "Not sure"
+          ]
+        },
+        {
           "type": "checkbox",
-          "name": "A2_Q8",
+          "name": "A2_Q6",
           "title": "For what purposes do you use the Google “My Activity” dashboard? (Select all that apply)",
           "isRequired": true,
           "colCount": 2,
@@ -427,31 +428,31 @@
           ],
           "rows": [
             {
-              "value": "want_personalization",
+              "value": "A3_Q1_1_want_personalization",
               "text": "I would like the services I use to be personalized based on my past activity, as opposed to being the same for everyone."
             },
             {
-              "value": "comfortable_record",
+              "value": "A3_Q1_2_comfortable_record",
               "text": "I would be comfortable with a company keeping a record of what I search for and watch."
             },
             {
-              "value": "want_transparency_system",
+              "value": "A3_Q1_3_want_transparency_system",
               "text": "If it were available, I would like to use a system that shows me what activity data has been collected about me."
             },
             {
-              "value": "adequate_explanation",
+              "value": "A3_Q1_4_adequate_explanation",
               "text": "I feel that companies adequately explain what they keep in my activity history."
             },
             {
-              "value": "understand_retention",
+              "value": "A3_Q1_5_understand_retention",
               "text": "I feel that I understand how companies decide what to keep in my activity history."
             },
             {
-              "value": "fair_to_store",
+              "value": "A3_Q1_6_fair_to_store",
               "text": "I would consider it fair for a company to store my activity in order to personalize the services I use."
             },
             {
-              "value": "creepy_to_store",
+              "value": "A3_Q1_7_creepy_to_store",
               "text": "I would consider it creepy for a company to store my activity in order to personalize the services I use."
             }
           ]
@@ -526,63 +527,63 @@
           ],
           "rows": [
             {
-              "value": "search_text",
+              "value": "A4_Q2_1_search_text",
               "text": "The text of every search they have typed"
             },
             {
-              "value": "unsubmitted_search",
+              "value": "A4_Q2_2_unsubmitted_search",
               "text": "Searches they typed but did not submit"
             },
             {
-              "value": "youtube_watch",
+              "value": "A4_Q2_3_youtube_watch",
               "text": "Which YouTube videos they watched, and for how long"
             },
             {
-              "value": "voice_recordings",
+              "value": "A4_Q2_4_voice_recordings",
               "text": "Voice recordings from Assistant queries"
             },
             {
-              "value": "places_travelled",
+              "value": "A4_Q2_5_places_travelled",
               "text": "Places they physically travelled to"
             },
             {
-              "value": "contact_list",
+              "value": "A4_Q2_6_contact_list",
               "text": "Their contact list"
             },
             {
-              "value": "device_colour",
+              "value": "A4_Q2_7_device_colour",
               "text": "The colour of the device they used"
             },
             {
-              "value": "android_apps",
+              "value": "A4_Q2_8_android_apps",
               "text": "Which apps they opened on an Android phone"
             },
             {
-              "value": "ads_clicked",
+              "value": "A4_Q2_9_ads_clicked",
               "text": "Ads they clicked"
             },
             {
-              "value": "signed_out_searches",
+              "value": "A4_Q2_10_signed_out_searches",
               "text": "Searches made while signed out"
             },
             {
-              "value": "incognito_searches",
+              "value": "A4_Q2_11_incognito_searches",
               "text": "Searches made in Incognito mode"
             },
             {
-              "value": "email_content",
+              "value": "A4_Q2_12_email_content",
               "text": "The content of their emails"
             },
             {
-              "value": "national_id",
+              "value": "A4_Q2_13_national_id",
               "text": "Their Social Security / national ID number"
             },
             {
-              "value": "num_devices",
+              "value": "A4_Q2_14_num_devices",
               "text": "How many devices they use"
             },
             {
-              "value": "email_purchases",
+              "value": "A4_Q2_15_email_purchases",
               "text": "Purchases confirmed by email"
             }
           ]
@@ -598,7 +599,7 @@
         },
         {
           "type": "text",
-          "name": "A4_Q5",
+          "name": "A4_Q3",
           "title": "In the last week, about how many searches do you think you made on Google?",
           "isRequired": true,
           "inputType": "text",
@@ -606,7 +607,7 @@
         },
         {
           "type": "text",
-          "name": "A4_Q6",
+          "name": "A4_Q4",
           "title": "In the last week, about how many YouTube videos do you think you watched?",
           "isRequired": true,
           "inputType": "text",
@@ -614,7 +615,7 @@
         },
         {
           "type": "text",
-          "name": "A4_Q7",
+          "name": "A4_Q5",
           "title": "In the last week, about how many separate items do you think were added to your Google activity dashboard?",
           "isRequired": true,
           "inputType": "text",
@@ -622,7 +623,7 @@
         },
         {
           "type": "slider",
-          "name": "A4_Q8",
+          "name": "A4_Q6",
           "title": "Of the items in your Google activity history, about what percentage do you think are still stored from more than a year ago?",
           "description": "0% = none of them; 100% = all of them.",
           "isRequired": true,
@@ -633,7 +634,7 @@
 
         {
           "type": "radiogroup",
-          "name": "A4_Q9",
+          "name": "A4_Q7",
           "title": "Which of the following privacy approaches would you prefer for managing your Google activity data (e.g., searches, browsing history, app activity, YouTube history) in the future?",
           "isRequired": true,
           "colCount": 1,
@@ -648,7 +649,7 @@
         },
         {
           "type": "radiogroup",
-          "name": "A4_Q10",
+          "name": "A4_Q8",
           "title": "Do you believe that Google ensures the security of the activity data it stores?",
           "isRequired": true,
           "colCount": 3,
@@ -656,7 +657,7 @@
         },
         {
           "type": "rating",
-          "name": "A4_Q11",
+          "name": "A4_Q9",
           "title": "On a scale of 1 to 5, with 1 being the least and 5 being the most, how much do you trust Google not to misuse your activity data?",
           "isRequired": true,
           "rateCount": 5,
@@ -667,7 +668,7 @@
         },
         {
           "type": "radiogroup",
-          "name": "A4_Q12",
+          "name": "A4_Q10",
           "title": "Do you think that you can access your activity data collected by Google?",
           "isRequired": true,
           "colCount": 3,
@@ -691,7 +692,7 @@
         },
         {
           "type": "radiogroup",
-          "name": "A5_Q0",
+          "name": "A5_Q1",
           "title": "Did you face any difficulties or problems while performing the above tasks through your Google “My Activity” dashboard?",
           "isRequired": true,
           "colCount": 3,
@@ -699,10 +700,10 @@
         },
         {
           "type": "comment",
-          "name": "A5_Q1",
+          "name": "A5_Q1_B1",
           "title": "If Yes, please specify:",
           "isRequired": false,
-          "visibleIf": "{A5_Q0} = 'Yes'"
+          "visibleIf": "{A5_Q1} = 'Yes'"
         },
         {
           "type": "matrix",
@@ -737,35 +738,35 @@
           ],
           "rows": [
             {
-              "value": "casual",
+              "value": "A5_Q2_1_casual",
               "text": "When you searched or browsed casually for non-important topics"
             },
             {
-              "value": "sensitive",
+              "value": "A5_Q2_2_sensitive",
               "text": "When you searched for personal or sensitive information (e.g., health, finances)"
             },
             {
-              "value": "embarrassing",
+              "value": "A5_Q2_3_embarrassing",
               "text": "When you viewed content that may be personally embarrassing or private"
             },
             {
-              "value": "someone_nearby",
+              "value": "A5_Q2_4_someone_nearby",
               "text": "When you used Google services while someone else was present nearby"
             },
             {
-              "value": "other_person_device",
+              "value": "A5_Q2_5_other_person_device",
               "text": "When another person used a device where you were logged into your Google Account"
             },
             {
-              "value": "shared_public_spaces",
+              "value": "A5_Q2_6_shared_public_spaces",
               "text": "When you used Google services in shared or public spaces"
             },
             {
-              "value": "shared_public_device",
+              "value": "A5_Q2_7_shared_public_device",
               "text": "When activity was logged on a public or shared device (e.g., library, office, school computer)"
             },
             {
-              "value": "accidental",
+              "value": "A5_Q2_8_accidental",
               "text": "When activity was logged accidentally or unintentionally (e.g., mistyped queries, accidental taps)"
             }
           ]
@@ -790,7 +791,7 @@
 
         {
           "type": "radiogroup",
-          "name": "A5_Q6",
+          "name": "A5_Q4",
           "title": "Do you think that the content of these activity logs could possibly contain any sensitive or personal information?",
           "isRequired": true,
           "colCount": 3,
@@ -799,7 +800,7 @@
 
         {
           "type": "matrix",
-          "name": "A5_Q9",
+          "name": "A5_Q5",
           "title": "For each of the following cases, when do you think it would be acceptable for Google to collect and store your activity data across its services (e.g., Search, YouTube, Maps, Chrome)?",
           "description": "On a scale of 1 to 5, with 1 being “Strongly unacceptable” and 5 being “Strongly acceptable”, express your level of agreement for each of the statements given below.",
           "isRequired": true,
@@ -831,43 +832,43 @@
           ],
           "rows": [
             {
-              "value": "explicit_consent",
+              "value": "A5_Q5_1_explicit_consent",
               "text": "If you have explicitly consented to Google collecting your activity data"
             },
             {
-              "value": "no_notification",
+              "value": "A5_Q5_2_no_notification",
               "text": "If Google does not notify you while collecting your activity data"
             },
             {
-              "value": "explicit_notification",
+              "value": "A5_Q5_3_explicit_notification",
               "text": "If Google explicitly notifies you while collecting some/all of your activity data"
             },
             {
-              "value": "anonymized",
+              "value": "A5_Q5_4_anonymized",
               "text": "If Google anonymizes (removes personally identifiable information from) your activity data before storing it"
             },
             {
-              "value": "financial_rewards",
+              "value": "A5_Q5_5_financial_rewards",
               "text": "If you get financial rewards (in the form of discounts, gift cards, coupons, etc.) for allowing Google to store your activity data"
             },
             {
-              "value": "improve_performance",
+              "value": "A5_Q5_6_improve_performance",
               "text": "If your activity data is used to improve the performance of Google services"
             },
             {
-              "value": "personalized_features",
+              "value": "A5_Q5_7_personalized_features",
               "text": "If your activity data is used to develop new or personalized features for you"
             },
             {
-              "value": "dashboard_features",
+              "value": "A5_Q5_8_dashboard_features",
               "text": "If your activity data is used to develop new features for Google activity dashboard"
             },
             {
-              "value": "stored_indefinitely",
+              "value": "A5_Q5_9_stored_indefinitely",
               "text": "If your activity data is stored indefinitely by Google on its data storage facilities"
             },
             {
-              "value": "not_stored_indefinitely",
+              "value": "A5_Q5_10_not_stored_indefinitely",
               "text": "If your activity data is not stored indefinitely by Google on its data storage facilities"
             }
           ]
@@ -875,7 +876,7 @@
 
         {
           "type": "radiogroup",
-          "name": "A5_Q12",
+          "name": "A5_Q6",
           "title": "Would you like to visit your Google “My Activity” dashboard more often in the future?",
           "isRequired": true,
           "colCount": 3,
@@ -883,21 +884,14 @@
         },
         {
           "type": "comment",
-          "name": "A5_Q13",
+          "name": "A5_Q7",
           "title": "Can you please briefly (1 sentence) explain your answer choice for the previous question?",
           "isRequired": true
         },
-        {
-          "type": "text",
-          "name": "AC_5",
-          "title": "Add 2 with 4. Now multiply the result by 2. Enter the correct answer.",
-          "isRequired": true,
-          "inputType": "text",
-          "placeholder": "Enter a number"
-        },
+
         {
           "type": "radiogroup",
-          "name": "A5_Q14",
+          "name": "A5_Q8",
           "title": "How comfortable did you feel while viewing the collected data on your Google “My Activity” dashboard?",
           "isRequired": true,
           "colCount": 3,
@@ -912,7 +906,7 @@
 
         {
           "type": "radiogroup",
-          "name": "A5_Q16",
+          "name": "A5_Q9",
           "title": "How easy or difficult was it for you to find what you were looking for?",
           "isRequired": true,
           "colCount": 3,
@@ -926,7 +920,7 @@
         },
         {
           "type": "radiogroup",
-          "name": "A5_Q17",
+          "name": "A5_Q10",
           "title": "Did you face any difficulties or problems while navigating through your Google “My Activity” dashboard?",
           "isRequired": true,
           "colCount": 3,
@@ -934,14 +928,14 @@
         },
         {
           "type": "comment",
-          "name": "A5_Q18",
-          "title": "If Yes, please specify:",
+          "name": "A5_Q10_B1",
+          "title": "Please specify:",
           "isRequired": false,
-          "visibleIf": "{A5_Q17} = 'Yes'"
+          "visibleIf": "{A5_Q10} = 'Yes'"
         },
         {
           "type": "radiogroup",
-          "name": "A5_Q19",
+          "name": "A5_Q11",
           "title": "Would you like some assistance in using your Google “My Activity” dashboard?",
           "isRequired": true,
           "colCount": 3,
@@ -949,7 +943,7 @@
         },
         {
           "type": "radiogroup",
-          "name": "A5_Q20",
+          "name": "A5_Q12",
           "title": "Would you like some assistance in finding sensitive data and deleting it from Google data storage facilities?",
           "isRequired": true,
           "colCount": 3,
@@ -957,15 +951,23 @@
         },
         {
           "type": "radiogroup",
-          "name": "A5_Q21",
+          "name": "A5_Q13",
           "title": "Earlier in this study, we informed you that by default, Google collects a variety of activity data across its services when you are signed into your Google Account. Would you be willing to delete some of the activity data currently stored in your Google Account?",
           "isRequired": true,
           "colCount": 3,
           "choices": ["Yes", "No", "Maybe"]
         },
         {
+          "type": "text",
+          "name": "AC_5",
+          "title": "Add 2 with 4. Now multiply the result by 2. Enter the correct answer.",
+          "isRequired": true,
+          "inputType": "text",
+          "placeholder": "Enter a number"
+        },
+        {
           "type": "radiogroup",
-          "name": "A5_Q23",
+          "name": "A5_Q14",
           "title": "Google provides users with options to automatically delete their activity data after 3 months or 18 months. Would you be willing to enable the auto-delete setting for your Google activity data?",
           "isRequired": true,
           "colCount": 3,
@@ -973,7 +975,7 @@
         },
         {
           "type": "radiogroup",
-          "name": "A5_Q24",
+          "name": "A5_Q15",
           "title": "Did you know about this option prior to today’s study?",
           "isRequired": true,
           "colCount": 3,
@@ -982,15 +984,7 @@
 
         {
           "type": "radiogroup",
-          "name": "AC_6",
-          "title": "Please do NOT select 'Blue' — choose any other option",
-          "isRequired": true,
-          "colCount": 4,
-          "choices": ["Green", "Blue", "Red", "Yellow"]
-        },
-        {
-          "type": "radiogroup",
-          "name": "A5_Q26",
+          "name": "A5_Q16",
           "title": "Have you ever gone through Google’s privacy policy or data practices documentation?",
           "isRequired": true,
           "colCount": 3,
@@ -998,7 +992,7 @@
         },
         {
           "type": "rating",
-          "name": "A5_Q27",
+          "name": "A5_Q17",
           "title": "On a scale of 1 to 5, with 1 being the least and 5 being the most, how much do you trust Google not to misuse your activity data, after participating in this study?",
           "isRequired": true,
           "rateCount": 5,
@@ -1028,7 +1022,7 @@
         },
         {
           "type": "comment",
-          "name": "A6_Q2",
+          "name": "A6_Q1_B1",
           "title": "If you faced some difficulty, please briefly (1–3 sentences) explain the issue:",
           "visibleIf": "{A6_Q1} = 'Faced some difficulty'",
           "isRequired": false,
@@ -1042,20 +1036,18 @@
 
         {
           "type": "radiogroup",
-          "name": "A6_Q1_extra",
+          "name": "A6_Q2",
           "title": "Did you create your personalised dashboard using the ADA extension?",
           "isRequired": true,
           "colCount": 4,
           "choices": ["Yes", "No"]
         },
 
-
         {
           "type": "html",
           "name": "A6_T2",
           "html": "<div style='font-weight:700; font-size:17px; margin:24px 0 10px 0;'>As you explore ADA, you may want to try the following:</div><div style='display:flex; flex-wrap:wrap; gap:14px; align-items:stretch; margin:8px 0;'><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; display:flex; gap:12px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:14px 16px;'><div style='flex:0 0 auto; font-size:26px; line-height:1;'>🧩</div><div style='font-size:15px; color:#444;'>Open the ADA extension from the Chrome toolbar to view your recent activity entries.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; display:flex; gap:12px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:14px 16px;'><div style='flex:0 0 auto; font-size:26px; line-height:1;'>⏳</div><div style='font-size:15px; color:#444;'>Wait for the activity to load; ADA scans and organizes your entries directly from the Google “My Activity” page.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; display:flex; gap:12px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:14px 16px;'><div style='flex:0 0 auto; font-size:26px; line-height:1;'>📊</div><div style='font-size:15px; color:#444;'>If you'd like your dashboard to feel more personalised, you can share your feedback for each activity and ADA will adapt to your preferences.</div></div><div style='flex:1 1 calc(50% - 7px); min-width:260px; box-sizing:border-box; display:flex; gap:12px; align-items:center; background:#fff; border:1px solid #e3e3e3; border-top:4px solid #19b394; border-radius:10px; padding:14px 16px;'><div style='flex:0 0 auto; font-size:26px; line-height:1;'>🖱️</div><div style='font-size:15px; color:#444;'>Try at least one feature such as filtering, sorting by date, or navigating through activity items.</div></div></div>"
         },
-        
 
         {
           "type": "html",
@@ -1145,39 +1137,39 @@
           ],
           "rows": [
             {
-              "value": "pos_1",
+              "value": "A7_Q4_1_pos_1",
               "text": "Item at position 1 (top of list)"
             },
             {
-              "value": "pos_2",
+              "value": "A7_Q4_2_pos_2",
               "text": "Item at position 2"
             },
             {
-              "value": "pos_3",
+              "value": "A7_Q4_3_pos_3",
               "text": "Item at position 3"
             },
             {
-              "value": "mid_1",
+              "value": "A7_Q4_4_random_1",
               "text": "First random item (1 of 3 random items)"
             },
             {
-              "value": "mid_2",
+              "value": "A7_Q4_5_random_2",
               "text": "Second random item (2 of 3 random items)"
             },
             {
-              "value": "mid_3",
+              "value": "A7_Q4_6_random_3",
               "text": "Third random item (3 of 3 random items)"
             },
             {
-              "value": "third_last",
+              "value": "A7_Q4_7_third_last",
               "text": "Third-from-last item"
             },
             {
-              "value": "second_last",
+              "value": "A7_Q4_8_second_last",
               "text": "Second-from-last item"
             },
             {
-              "value": "last",
+              "value": "A7_Q4_9_last",
               "text": "Last item (bottom of list)"
             }
           ]
@@ -1220,23 +1212,31 @@
           ],
           "rows": [
             {
-              "value": "info_accurate",
+              "value": "A7_Q5_1_info_accurate",
               "text": "The activity information shown in ADA regarding my activities felt accurate."
             },
             {
-              "value": "info_reliable",
+              "value": "A7_Q5_2_info_reliable",
               "text": "The activity information shown in ADA regarding my activities felt reliable."
             },
 
             {
-              "value": "recs_match_my_idea",
+              "value": "A7_Q5_3_recs_match_my_idea",
               "text": "The activity information provided by the extension match my idea of how sensitive my browser interactions are."
             },
             {
-              "value": "understand_why_marked",
+              "value": "A7_Q5_4_understand_why_marked",
               "text": "I understand why ADA placed certain entries above the others."
             }
           ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "AC_6",
+          "title": "Please do NOT select 'Blue' — choose any other option",
+          "isRequired": true,
+          "colCount": 4,
+          "choices": ["Green", "Blue", "Red", "Yellow"]
         },
         {
           "type": "matrix",
@@ -1271,35 +1271,28 @@
           ],
           "rows": [
             {
-              "value": "easy_navigate",
+              "value": "A7_Q6_1_easy_navigate",
               "text": "The extension is easy to navigate."
             },
             {
-              "value": "easy_interact",
+              "value": "A7_Q6_2_easy_interact",
               "text": "The extension is easy to interact with."
             },
             {
-              "value": "scores_understandable",
+              "value": "A7_Q6_3_scores_understandable",
               "text": "The activity information provided by the extension is easy for me to understand."
             },
             {
-              "value": "order_understandable",
+              "value": "A7_Q6_4_order_understandable",
               "text": "The order in which the activity information is presented by the extension is easy for me to understand."
             },
             {
-              "value": "presentation_understandable",
+              "value": "A7_Q6_5_presentation_understandable",
               "text": "The extension was overall presented in a way that was easy for me to understand."
             }
           ]
         },
-        {
-          "type": "text",
-          "name": "AC_8",
-          "title": "If you’re reading this question, enter the number that comes after three.",
-          "isRequired": true,
-          "inputType": "text",
-          "placeholder": "Enter a number"
-        },
+
         {
           "type": "matrix",
           "name": "A7_Q7",
@@ -1333,31 +1326,31 @@
           ],
           "rows": [
             {
-              "value": "understand_sensitivity_quickly",
+              "value": "A7_Q7_1_understand_sensitivity_quickly",
               "text": "ADA helped me understand the potential “sensitivity” of my data quickly."
             },
             {
-              "value": "noticed_new_things",
+              "value": "A7_Q7_2_noticed_new_things",
               "text": "ADA helped me notice things about my Google activity that I was not aware of before."
             },
             {
-              "value": "manage_browsing_data",
+              "value": "A7_Q7_3_manage_browsing_data",
               "text": "Using this extension would help me better manage my browsing data."
             },
             {
-              "value": "remove_before_sent",
+              "value": "A7_Q7_4_remove_before_sent",
               "text": "Using this extension would help me remove sensitive data before it is sent to Google."
             },
             {
-              "value": "open_to_daily_use",
+              "value": "A7_Q7_5_open_to_daily_use",
               "text": "I would be open to using this extension in my day-to-day life."
             },
             {
-              "value": "trust_predictions",
+              "value": "A7_Q7_6_trust_predictions",
               "text": "I trust the personalized dashboard provided by the system."
             },
             {
-              "value": "percentages_help_delete",
+              "value": "A7_Q7_7_percentages_help_delete",
               "text": "The personalized dashboard helps me decide which activities to delete."
             }
           ]
@@ -1426,15 +1419,15 @@
           ],
           "rows": [
             {
-              "value": "confident_reviewing",
+              "value": "A7_Q11_1_confident_reviewing",
               "text": "I feel confident using ADA to review my activity data."
             },
             {
-              "value": "mental_effort",
+              "value": "A7_Q11_2_mental_effort",
               "text": "Using ADA for the first time required a lot of mental effort."
             },
             {
-              "value": "intend_to_keep_using",
+              "value": "A7_Q11_3_intend_to_keep_using",
               "text": "I intend to keep using ADA over the next 7 days."
             }
           ]
@@ -1449,14 +1442,6 @@
           "type": "html",
           "name": "A8_T1",
           "html": "<p>This section moves away from Google specifically and asks about your general views on how companies handle personal information online. There are no right or wrong answers — just tell us how much you agree or disagree with each statement below.</p>"
-        },
-        {
-          "type": "radiogroup",
-          "name": "AC_9",
-          "title": "Select “Often” only if you read the instructions carefully. Otherwise select “Never”. How often do you eat chicken for breakfast?",
-          "isRequired": true,
-          "colCount": 4,
-          "choices": ["Often", "Rarely", "Never", "Not sure"]
         },
         {
           "type": "matrix",
@@ -1478,31 +1463,31 @@
           ],
           "rows": [
             {
-              "value": "awareness_disclose",
+              "value": "A8_Q1_1_awareness_disclose",
               "text": "Companies seeking information online should disclose the way the data are collected, processed, and used."
             },
             {
-              "value": "awareness_policy",
+              "value": "A8_Q1_2_awareness_policy",
               "text": "A good consumer online privacy policy should have a clear and conspicuous disclosure."
             },
             {
-              "value": "awareness_important",
+              "value": "A8_Q1_3_awareness_important",
               "text": "It is very important to me that I am aware and knowledgeable about how my personal information will be used."
             },
             {
-              "value": "collection_bothers_ask",
+              "value": "A8_Q1_4_collection_bothers_ask",
               "text": "It usually bothers me when online companies ask me for personal information."
             },
             {
-              "value": "collection_think_twice",
+              "value": "A8_Q1_5_collection_think_twice",
               "text": "When online companies ask me for personal information, I sometimes think twice before providing it."
             },
             {
-              "value": "collection_bothers_many",
+              "value": "A8_Q1_6_collection_bothers_many",
               "text": "It bothers me to give personal information to so many online companies."
             },
             {
-              "value": "collection_too_much",
+              "value": "A8_Q1_7_collection_too_much",
               "text": "I’m concerned that online companies are collecting too much personal information about me."
             }
           ]
@@ -1540,17 +1525,12 @@
           ]
         },
         {
-          "type": "radiogroup",
-          "name": "AC_10",
-          "title": "Which of the following statements is true about the ADA extension used in this study?",
+          "type": "text",
+          "name": "AC_7",
+          "title": "If you’re reading this question, enter the number that comes after three.",
           "isRequired": true,
-          "colCount": 2,
-          "choices": [
-            "ADA sends your Google Activity data to the researchers",
-            "ADA sells your data to third parties",
-            "ADA processes data locally on your device and does not send data outside your browser",
-            "ADA reads your emails and contacts"
-          ]
+          "inputType": "text",
+          "placeholder": "Enter a number"
         },
         {
           "type": "checkbox",
